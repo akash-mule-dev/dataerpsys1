@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"c:\\\\Users\\\\admin\\\\Documents\\\\Repos\\\\Gaurav\\\\dataerpsys\\\\dataerpsys1\")",
+      "WebFetch(domain:dataerpsys.com)",
+      "mcp__stitch__get_project",
+      "mcp__stitch__list_screens",
+      "Bash(npx --yes create-next-app@latest . --typescript --tailwind --app --src-dir --import-alias \"@/*\" --eslint --no-turbopack --use-npm --yes)"
+    ]
+  }
+}
