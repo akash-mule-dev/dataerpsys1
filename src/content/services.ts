@@ -1,3 +1,5 @@
+import { SERVICE_IMAGES } from "./images";
+
 export type ServicePage = {
   slug: string;
   href: string;
@@ -5,6 +7,7 @@ export type ServicePage = {
   eyebrow: string;
   intro: string;
   icon: string;
+  heroImage?: { url: string; credit: string; alt: string };
   overview: { heading: string; body: string };
   offerings: { heading: string; items: { title: string; body?: string; icon?: string }[] };
   benefits?: { heading: string; items: string[] };
@@ -13,7 +16,7 @@ export type ServicePage = {
   ctaLabel?: string;
 };
 
-export const SERVICES: Record<string, ServicePage> = {
+const RAW_SERVICES: Record<string, ServicePage> = {
   sap: {
     slug: "sap",
     href: "/it-services/sap",
@@ -366,5 +369,12 @@ export const SERVICES: Record<string, ServicePage> = {
     },
   },
 };
+
+export const SERVICES: Record<string, ServicePage> = Object.fromEntries(
+  Object.entries(RAW_SERVICES).map(([slug, page]) => [
+    slug,
+    { ...page, heroImage: SERVICE_IMAGES[slug] },
+  ])
+);
 
 export const SERVICE_SLUGS = Object.keys(SERVICES);

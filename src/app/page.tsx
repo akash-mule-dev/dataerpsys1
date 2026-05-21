@@ -3,6 +3,7 @@ import { Container, MaterialIcon, SectionEyebrow, SectionHeading, Lead } from "@
 import { StatsRow } from "@/components/sections/StatsRow";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { CTASection } from "@/components/sections/CTASection";
+import { HeroAnimation } from "@/components/HeroAnimation";
 import { HOME_STATS, HOME_TESTIMONIALS } from "@/content/site";
 
 export default function HomePage() {
@@ -41,19 +42,7 @@ export default function HomePage() {
               </div>
             </div>
             <div className="relative flex justify-center items-center">
-              <div className="relative w-full max-w-[500px] aspect-square rounded-2xl bg-surface-container-low border border-border-subtle p-8 grid grid-cols-2 gap-4">
-                <HeroTile icon="developer_board" label="ERP" />
-                <HeroTile icon="cloud" label="Cloud" />
-                <HeroTile icon="bug_report" label="QA" />
-                <HeroTile icon="hub" label="Integrations" />
-                <div className="col-span-2 rounded-lg bg-text-primary text-white p-5 flex items-center justify-between">
-                  <div>
-                    <div className="font-label-sm text-label-sm uppercase tracking-widest text-primary-fixed-dim">Live ERP</div>
-                    <div className="font-headline-md text-headline-md mt-1">Production OK</div>
-                  </div>
-                  <MaterialIcon name="verified" className="text-success text-4xl" filled />
-                </div>
-              </div>
+              <HeroAnimation />
               <div className="absolute w-[120%] h-[120%] bg-primary-container/10 rounded-full -z-10 blur-3xl opacity-60" />
             </div>
           </div>
@@ -173,15 +162,6 @@ const WHY_PILLARS = [
   { title: "Consulting Services", body: "We help businesses keep pace with today's fast-moving IT landscape.", icon: "psychology" },
   { title: "Quality Engineering", body: "Independent QE and a wide range of software-testing services on demand.", icon: "verified" },
 ];
-
-function HeroTile({ icon, label }: { icon: string; label: string }) {
-  return (
-    <div className="rounded-lg bg-surface-white border border-border-subtle p-5 flex flex-col items-start gap-2">
-      <MaterialIcon name={icon} className="text-primary-container text-3xl" filled />
-      <span className="font-label-md text-label-md text-text-primary">{label}</span>
-    </div>
-  );
-}
 
 function BentoCard({
   icon,

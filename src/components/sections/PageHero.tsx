@@ -1,19 +1,23 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Container, MaterialIcon } from "@/components/ui/Container";
 
 export type Breadcrumb = { label: string; href?: string };
+export type HeroImage = { url: string; credit: string; alt: string };
 
 export function PageHero({
   eyebrow,
   title,
   sub,
   icon,
+  image,
   breadcrumbs,
 }: {
   eyebrow?: string;
   title: string;
   sub?: string;
   icon?: string;
+  image?: HeroImage;
   breadcrumbs?: Breadcrumb[];
 }) {
   return (
@@ -41,7 +45,13 @@ export function PageHero({
             ))}
           </nav>
         )}
-        <div className="grid grid-cols-1 lg:grid-cols-[1fr_auto] gap-8 items-start">
+        <div
+          className={
+            image
+              ? "grid grid-cols-1 lg:grid-cols-[1.1fr_1fr] gap-10 lg:gap-14 items-center"
+              : "grid grid-cols-1 lg:grid-cols-[1fr_auto] gap-8 items-start"
+          }
+        >
           <div className="flex flex-col gap-5 max-w-3xl">
             {eyebrow && (
               <span className="font-label-md text-label-md text-primary tracking-widest uppercase">
@@ -56,8 +66,39 @@ export function PageHero({
                 {sub}
               </p>
             )}
+            {icon && !image && (
+              <div className="hidden lg:flex w-14 h-14 rounded-lg bg-primary/10 items-center justify-center mt-2">
+                <MaterialIcon name={icon} className="text-primary-container text-3xl" filled />
+              </div>
+            )}
           </div>
-          {icon && (
+
+          {image && (
+            <div className="relative rounded-xl overflow-hidden border border-border-subtle shadow-[0_24px_48px_-16px_rgba(10,8,59,0.18)] aspect-[4/3] lg:aspect-[5/4]">
+              <Image
+                src={image.url}
+                alt={image.alt}
+                fill
+                priority
+                sizes="(max-width: 1024px) 100vw, 580px"
+                className="object-cover"
+              />
+              {icon && (
+                <div className="absolute top-4 left-4 w-11 h-11 rounded-lg bg-surface-white/95 backdrop-blur-sm border border-border-subtle flex items-center justify-center">
+                  <MaterialIcon
+                    name={icon}
+                    className="text-primary-container text-2xl"
+                    filled
+                  />
+                </div>
+              )}
+              <div className="absolute bottom-2 right-3 font-label-sm text-label-sm text-white/85 drop-shadow">
+                Photo: {image.credit} · Unsplash
+              </div>
+            </div>
+          )}
+
+          {!image && icon && (
             <div className="hidden lg:flex w-32 h-32 rounded-xl bg-primary/10 items-center justify-center">
               <MaterialIcon name={icon} className="text-primary-container text-7xl" filled />
             </div>

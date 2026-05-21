@@ -39,6 +39,7 @@ export function ServicePageTemplate({
         title={service.title}
         sub={service.intro}
         icon={service.icon}
+        image={service.heroImage}
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: parentLabel, href: parentHref },

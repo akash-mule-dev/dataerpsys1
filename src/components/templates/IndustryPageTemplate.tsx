@@ -30,6 +30,7 @@ export function IndustryPageTemplate({ industry }: { industry: IndustryPage }) {
         title={industry.title}
         sub={industry.intro}
         icon={industry.icon}
+        image={industry.heroImage}
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "Industries", href: "/industries" },

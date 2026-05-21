@@ -3,6 +3,7 @@ import { Container, MaterialIcon, SectionEyebrow, SectionHeading, Lead } from "@
 import { PageHero } from "@/components/sections/PageHero";
 import { CTASection } from "@/components/sections/CTASection";
 import { CAREER_PERKS, RECRUITMENT_PROCESS } from "@/content/site";
+import { CAREERS_IMAGE } from "@/content/images";
 import { CareersForm } from "./CareersForm";
 
 export const metadata: Metadata = {
@@ -17,6 +18,7 @@ export default function CareersPage() {
         eyebrow="Careers"
         title="Build enterprise systems with us."
         sub="Tell us about yourself and we'll keep you up-to-date on upcoming events and career opportunities that match your interests."
+        image={CAREERS_IMAGE}
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "About", href: "/about-us" },

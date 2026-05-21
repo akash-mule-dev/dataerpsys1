@@ -1,39 +1,48 @@
 "use client";
 
-import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import { useEffect, useState } from "react";
+import dynamic from "next/dynamic";
 import { MaterialIcon } from "@/components/ui/Container";
 
+const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
+
 /**
- * Drop a `.lottie` file into `public/hero.lottie` and the animation will load.
- * Without one, a CSS-animated 3D dashboard fallback renders instead.
+ * Drop a Lottie JSON file at `public/hero.json` to render an animation.
+ * Without one, the CSS-animated 3D dashboard fallback shows instead.
  */
-const LOCAL_LOTTIE = "/hero.lottie";
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+const LOCAL_LOTTIE = `${BASE}/hero.json`;
 
 export function HeroAnimation() {
-  const [lottieAvailable, setLottieAvailable] = useState<boolean | null>(null);
+  const [data, setData] = useState<object | null>(null);
+  const [failed, setFailed] = useState(false);
 
   useEffect(() => {
     let cancelled = false;
-    fetch(LOCAL_LOTTIE, { method: "HEAD" })
-      .then((r) => !cancelled && setLottieAvailable(r.ok))
-      .catch(() => !cancelled && setLottieAvailable(false));
+    fetch(LOCAL_LOTTIE)
+      .then((r) => (r.ok ? r.json() : Promise.reject()))
+      .then((json) => !cancelled && setData(json))
+      .catch(() => !cancelled && setFailed(true));
     return () => {
       cancelled = true;
     };
   }, []);
 
-  if (lottieAvailable === true) {
+  if (data) {
     return (
-      <div className="relative w-full max-w-[520px] aspect-square">
-        <DotLottieReact
-          src={LOCAL_LOTTIE}
+      <div className="relative w-full max-w-[560px] aspect-square flex items-center justify-center">
+        <Lottie
+          animationData={data}
           loop
           autoplay
           style={{ width: "100%", height: "100%" }}
         />
       </div>
     );
+  }
+
+  if (!failed) {
+    return <div className="w-full max-w-[560px] aspect-square" aria-hidden />;
   }
 
   return <DashboardSceneFallback />;
@@ -43,12 +52,9 @@ function DashboardSceneFallback() {
   return (
     <div className="relative w-full max-w-[520px] aspect-square [perspective:1200px]">
       <div className="absolute inset-0 [transform-style:preserve-3d] hero-scene-spin">
-        {/* glowing aura */}
         <div className="absolute inset-[-8%] rounded-[2rem] bg-[radial-gradient(closest-side,_rgba(28,82,210,0.25),_transparent_70%)] blur-2xl" />
 
-        {/* main dashboard card */}
         <div className="absolute inset-[4%] rounded-2xl bg-surface-white border border-border-subtle shadow-[0_24px_64px_-12px_rgba(10,8,59,0.25)] [transform:rotateY(-8deg)_rotateX(6deg)] flex flex-col gap-3 p-5">
-          {/* top bar */}
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-1.5">
               <span className="w-2 h-2 rounded-full bg-surface-container-high" />
@@ -64,7 +70,6 @@ function DashboardSceneFallback() {
             </div>
           </div>
 
-          {/* KPI row */}
           <div className="grid grid-cols-3 gap-2">
             {[
               { icon: "trending_up", label: "Throughput", value: "98%" },
@@ -92,7 +97,6 @@ function DashboardSceneFallback() {
             ))}
           </div>
 
-          {/* line chart */}
           <div className="relative flex-1 min-h-0 rounded-lg bg-surface-container-low p-3 overflow-hidden">
             <div className="flex items-center justify-between mb-2">
               <span className="font-label-sm text-label-sm text-text-muted uppercase tracking-widest">
@@ -113,7 +117,6 @@ function DashboardSceneFallback() {
                   <stop offset="100%" stopColor="#1c52d2" stopOpacity="0" />
                 </linearGradient>
               </defs>
-              {/* grid */}
               {[28, 56, 84, 112].map((y) => (
                 <line
                   key={y}
@@ -125,12 +128,10 @@ function DashboardSceneFallback() {
                   strokeDasharray="3 4"
                 />
               ))}
-              {/* fill */}
               <path
                 d="M0,100 C40,80 70,40 110,55 C150,70 180,30 220,40 C260,50 300,15 340,30 L400,20 L400,140 L0,140 Z"
                 fill="url(#lineFill)"
               />
-              {/* line */}
               <path
                 d="M0,100 C40,80 70,40 110,55 C150,70 180,30 220,40 C260,50 300,15 340,30 L400,20"
                 fill="none"
@@ -139,7 +140,6 @@ function DashboardSceneFallback() {
                 strokeLinecap="round"
                 className="hero-line-draw"
               />
-              {/* dots */}
               {[
                 [110, 55],
                 [220, 40],
@@ -158,7 +158,6 @@ function DashboardSceneFallback() {
             </svg>
           </div>
 
-          {/* status row */}
           <div className="flex items-center justify-between rounded-lg bg-text-primary text-white p-3">
             <div className="flex items-center gap-2">
               <MaterialIcon name="hub" className="text-primary-fixed text-lg" filled />
@@ -170,7 +169,6 @@ function DashboardSceneFallback() {
           </div>
         </div>
 
-        {/* floating side cards */}
         <div className="absolute -left-4 top-1/3 w-32 rounded-lg bg-surface-white border border-border-subtle shadow-[0_8px_24px_-8px_rgba(10,8,59,0.2)] p-3 [transform:translateZ(60px)_rotateY(8deg)] hero-card-float">
           <div className="flex items-center gap-2">
             <div className="w-6 h-6 rounded bg-primary-container/15 flex items-center justify-center">

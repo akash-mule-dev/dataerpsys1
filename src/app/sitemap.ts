@@ -3,6 +3,8 @@ import { SITE_URL } from "@/lib/seo";
 import { SERVICES } from "@/content/services";
 import { INDUSTRIES } from "@/content/industries";
 
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
 

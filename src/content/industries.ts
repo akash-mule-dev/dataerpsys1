@@ -1,3 +1,5 @@
+import { INDUSTRY_IMAGES } from "./images";
+
 export type IndustryPage = {
   slug: string;
   href: string;
@@ -5,12 +7,13 @@ export type IndustryPage = {
   eyebrow: string;
   intro: string;
   icon: string;
+  heroImage?: { url: string; credit: string; alt: string };
   overview: { heading: string; body: string };
   solutions: { heading: string; items: { title: string; body?: string; icon?: string }[] };
   whyUs: { heading: string; items: string[] };
 };
 
-export const INDUSTRIES: Record<string, IndustryPage> = {
+const RAW_INDUSTRIES: Record<string, IndustryPage> = {
   manufacturing: {
     slug: "manufacturing",
     href: "/industries/manufacturing",
@@ -223,5 +226,12 @@ export const INDUSTRIES: Record<string, IndustryPage> = {
     },
   },
 };
+
+export const INDUSTRIES: Record<string, IndustryPage> = Object.fromEntries(
+  Object.entries(RAW_INDUSTRIES).map(([slug, page]) => [
+    slug,
+    { ...page, heroImage: INDUSTRY_IMAGES[slug] },
+  ])
+);
 
 export const INDUSTRY_SLUGS = Object.keys(INDUSTRIES);
