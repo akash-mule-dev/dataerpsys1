@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>About Us | Data ERP Systems</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-family: 'Material Symbols Outlined';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;
+            line-height: 1;
+            letter-spacing: normal;
+            text-transform: none;
+            display: inline-block;
+            white-space: nowrap;
+            word-wrap: normal;
+            direction: ltr;
+            -webkit-font-feature-settings: 'liga';
+            -webkit-font-smoothing: antialiased;
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-error": "#ffffff",
+                        "on-primary-fixed-variant": "#003cad",
+                        "surface-container-lowest": "#ffffff",
+                        "on-secondary-container": "#4f4f82",
+                        "on-tertiary-container": "#c7d7f2",
+                        "on-tertiary-fixed": "#0b1c30",
+                        "surface-variant": "#e0e3e6",
+                        "primary-fixed-dim": "#b5c4ff",
+                        "success": "#10B981",
+                        "error": "#EF4444",
+                        "surface-container": "#eceef1",
+                        "primary-fixed": "#dce1ff",
+                        "primary-container": "#1c52d2",
+                        "on-surface": "#191c1e",
+                        "outline": "#747686",
+                        "surface-container-highest": "#e0e3e6",
+                        "on-background": "#191c1e",
+                        "surface-dim": "#d8dadd",
+                        "surface-container-low": "#f2f4f7",
+                        "inverse-primary": "#b5c4ff",
+                        "on-surface-variant": "#434654",
+                        "surface": "#f7f9fc",
+                        "secondary-fixed-dim": "#c2c1fc",
+                        "text-muted": "#475569",
+                        "on-secondary-fixed": "#161545",
+                        "inverse-surface": "#2d3133",
+                        "tertiary": "#37465c",
+                        "on-primary-fixed": "#00164d",
+                        "background": "#f7f9fc",
+                        "on-primary": "#ffffff",
+                        "secondary-container": "#c5c4ff",
+                        "on-secondary-fixed-variant": "#424274",
+                        "tertiary-fixed-dim": "#b7c8e1",
+                        "surface-white": "#FFFFFF",
+                        "secondary": "#59598d",
+                        "border-subtle": "#E2E8F0",
+                        "surface-container-high": "#e6e8eb",
+                        "on-secondary": "#ffffff",
+                        "error-container": "#ffdad6",
+                        "outline-variant": "#c3c5d7",
+                        "on-error-container": "#93000a",
+                        "text-primary": "#0A083B",
+                        "tertiary-container": "#4e5e74",
+                        "on-primary-container": "#cbd5ff",
+                        "inverse-on-surface": "#eff1f4",
+                        "on-tertiary": "#ffffff",
+                        "secondary-fixed": "#e2dfff",
+                        "primary": "#003baa",
+                        "on-tertiary-fixed-variant": "#38485d",
+                        "surface-tint": "#1e53d3",
+                        "tertiary-fixed": "#d3e4fe",
+                        "surface-bright": "#f7f9fc"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "gutter": "24px",
+                        "base": "8px",
+                        "margin-desktop": "48px",
+                        "container-max": "1280px",
+                        "margin-mobile": "16px"
+                    },
+                    "fontFamily": {
+                        "label-sm": ["Hanken Grotesk"],
+                        "body-md": ["Hanken Grotesk"],
+                        "body-lg": ["Hanken Grotesk"],
+                        "label-md": ["Hanken Grotesk"],
+                        "headline-md": ["Hanken Grotesk"],
+                        "headline-xl": ["Hanken Grotesk"],
+                        "headline-lg-mobile": ["Hanken Grotesk"],
+                        "headline-lg": ["Hanken Grotesk"]
+                    },
+                    "fontSize": {
+                        "label-sm": ["12px", { "lineHeight": "1.2", "fontWeight": "600" }],
+                        "body-md": ["16px", { "lineHeight": "1.5", "fontWeight": "400" }],
+                        "body-lg": ["18px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "label-md": ["14px", { "lineHeight": "1.4", "letterSpacing": "0.01em", "fontWeight": "500" }],
+                        "headline-md": ["24px", { "lineHeight": "1.3", "fontWeight": "600" }],
+                        "headline-xl": ["48px", { "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "headline-lg-mobile": ["28px", { "lineHeight": "1.2", "fontWeight": "600" }],
+                        "headline-lg": ["32px", { "lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "600" }]
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-background text-on-background font-body-md text-body-md antialiased selection:bg-primary-container selection:text-white flex flex-col min-h-screen">
+<!-- TopNavBar -->
+<header class="bg-surface-white dark:bg-inverse-surface border-b border-border-subtle dark:border-outline docked full-width top-0 z-50">
+<div class="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop h-20 max-w-container-max mx-auto">
+<!-- Brand -->
+<a class="font-headline-md text-headline-md font-bold text-text-primary dark:text-primary-fixed-dim flex items-center gap-2" href="#">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">dataset</span>
+                Data ERP Systems
+            </a>
+<!-- Desktop Nav -->
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-on-surface-variant dark:text-surface-variant font-medium hover:text-primary-container dark:hover:text-primary-fixed transition-colors duration-200" href="#">Home</a>
+<a class="text-on-surface-variant dark:text-surface-variant font-medium hover:text-primary-container dark:hover:text-primary-fixed transition-colors duration-200" href="#">Services</a>
+<a class="text-on-surface-variant dark:text-surface-variant font-medium hover:text-primary-container dark:hover:text-primary-fixed transition-colors duration-200" href="#">Industries</a>
+<a aria-current="page" class="text-primary dark:text-primary-fixed border-b-2 border-primary pb-1 font-bold active:opacity-80 active:scale-95 transition-all" href="#">About Us</a>
+<a class="text-on-surface-variant dark:text-surface-variant font-medium hover:text-primary-container dark:hover:text-primary-fixed transition-colors duration-200" href="#">Contact Us</a>
+</nav>
+<!-- Actions -->
+<div class="hidden md:flex items-center gap-4">
+<a class="text-text-primary hover:text-primary transition-colors font-label-md text-label-md px-4 py-2" href="#">Login</a>
+<a class="bg-primary-container text-white px-6 py-2 rounded font-label-md text-label-md hover:opacity-90 transition-opacity" href="#">Get Started</a>
+</div>
+<!-- Mobile Menu Toggle -->
+<button class="md:hidden text-text-primary p-2">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</header>
+<!-- Main Content -->
+<main class="flex-grow flex flex-col w-full">
+<!-- Hero Section -->
+<section class="relative pt-32 pb-24 px-margin-mobile md:px-margin-desktop bg-surface-white border-b border-border-subtle overflow-hidden">
+<!-- Decorative Elements -->
+<div class="absolute top-0 right-0 w-1/3 h-full bg-surface-container-low transform skew-x-12 translate-x-1/4 opacity-50 pointer-events-none"></div>
+<div class="max-w-container-max mx-auto grid grid-cols-1 md:grid-cols-12 gap-gutter relative z-10">
+<div class="col-span-1 md:col-span-8 flex flex-col justify-center">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider mb-4 block">Our Story</span>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-xl md:text-headline-xl text-text-primary mb-6">Empowering enterprise intelligence through systematic precision.</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+                        At Data ERP Systems, we believe that robust infrastructure is the foundation of innovation. Since our inception, we have been dedicated to transforming complex data landscapes into streamlined, actionable intelligence for global enterprises.
+                    </p>
+</div>
+</div>
+</section>
+<!-- Mission & Values Bento Grid -->
+<section class="py-24 px-margin-mobile md:px-margin-desktop bg-surface-container-lowest">
+<div class="max-w-container-max mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<!-- Mission Statement -->
+<div class="col-span-1 md:col-span-8 bg-surface-white border border-border-subtle rounded-xl p-8 md:p-12 shadow-sm hover:shadow-md transition-shadow">
+<div class="flex items-start gap-4 mb-6">
+<div class="p-3 bg-surface-container-low rounded-lg text-primary">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">explore</span>
+</div>
+<div>
+<h2 class="font-headline-md text-headline-md text-text-primary mb-2">Our Mission</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                                    To engineer scalable, resilient ERP solutions that drive operational excellence. We architect systems that not only manage data but unlock its latent potential, enabling organizations to make precise, strategic decisions at scale.
+                                </p>
+</div>
+</div>
+</div>
+<!-- Core Value 1 -->
+<div class="col-span-1 md:col-span-4 bg-surface-white border border-border-subtle rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow flex flex-col">
+<div class="p-3 bg-surface-container-low rounded-lg text-primary w-max mb-4">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">security</span>
+</div>
+<h3 class="font-label-md text-label-md text-text-primary mb-2 text-lg">Uncompromising Integrity</h3>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm mt-auto">
+                            Security and trust are non-negotiable. We build systems designed to protect enterprise assets with relentless reliability.
+                        </p>
+</div>
+<!-- Core Value 2 -->
+<div class="col-span-1 md:col-span-4 bg-surface-white border border-border-subtle rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow flex flex-col">
+<div class="p-3 bg-surface-container-low rounded-lg text-primary w-max mb-4">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">bolt</span>
+</div>
+<h3 class="font-label-md text-label-md text-text-primary mb-2 text-lg">Agile Execution</h3>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm mt-auto">
+                            We deploy rapidly and adapt instantly, ensuring our solutions evolve in lockstep with the demands of modern business.
+                        </p>
+</div>
+<!-- Core Value 3 -->
+<div class="col-span-1 md:col-span-4 bg-surface-white border border-border-subtle rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow flex flex-col">
+<div class="p-3 bg-surface-container-low rounded-lg text-primary w-max mb-4">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">group_work</span>
+</div>
+<h3 class="font-label-md text-label-md text-text-primary mb-2 text-lg">Collaborative Synergy</h3>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm mt-auto">
+                            We partner deeply with our clients, transforming their complex operational challenges into our engineering mandates.
+                        </p>
+</div>
+<!-- Core Value 4 -->
+<div class="col-span-1 md:col-span-4 bg-surface-white border border-border-subtle rounded-xl p-8 shadow-sm hover:shadow-md transition-shadow flex flex-col">
+<div class="p-3 bg-surface-container-low rounded-lg text-primary w-max mb-4">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">insights</span>
+</div>
+<h3 class="font-label-md text-label-md text-text-primary mb-2 text-lg">Data-Driven Precision</h3>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm mt-auto">
+                            Every decision, architecture, and deployment is guided by rigorous analysis and empirical evidence.
+                        </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Timeline / History -->
+<section class="py-24 px-margin-mobile md:px-margin-desktop bg-surface-white border-y border-border-subtle">
+<div class="max-w-container-max mx-auto">
+<div class="mb-16 text-center max-w-3xl mx-auto">
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-lg md:text-headline-lg text-text-primary mb-4">A Legacy of Innovation</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Tracing our path from a specialized IT consultancy to a global leader in enterprise resource planning.</p>
+</div>
+<div class="relative border-l border-border-subtle ml-4 md:ml-1/2">
+<!-- Timeline Item 1 -->
+<div class="mb-12 relative pl-8 md:w-1/2 md:-ml-[1px] md:pr-12 md:pl-0 md:text-right group">
+<div class="absolute w-3 h-3 bg-primary-container rounded-full -left-[6px] md:-right-[6px] md:left-auto top-1.5 ring-4 ring-surface-white"></div>
+<span class="font-label-sm text-label-sm text-primary mb-1 block">2010</span>
+<h4 class="font-headline-md text-headline-md text-text-primary mb-2 text-lg">Foundation</h4>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm">Founded as a boutique data architecture firm, focusing on optimizing legacy databases for mid-market manufacturing.</p>
+</div>
+<!-- Timeline Item 2 -->
+<div class="mb-12 relative pl-8 md:w-1/2 md:ml-auto md:pl-12 group">
+<div class="absolute w-3 h-3 bg-border-subtle group-hover:bg-primary-container transition-colors rounded-full -left-[6px] top-1.5 ring-4 ring-surface-white"></div>
+<span class="font-label-sm text-label-sm text-primary mb-1 block">2015</span>
+<h4 class="font-headline-md text-headline-md text-text-primary mb-2 text-lg">Platform Launch</h4>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm">Released our first proprietary ERP module, integrating financial and supply chain data into a single, unified interface.</p>
+</div>
+<!-- Timeline Item 3 -->
+<div class="mb-12 relative pl-8 md:w-1/2 md:-ml-[1px] md:pr-12 md:pl-0 md:text-right group">
+<div class="absolute w-3 h-3 bg-border-subtle group-hover:bg-primary-container transition-colors rounded-full -left-[6px] md:-right-[6px] md:left-auto top-1.5 ring-4 ring-surface-white"></div>
+<span class="font-label-sm text-label-sm text-primary mb-1 block">2019</span>
+<h4 class="font-headline-md text-headline-md text-text-primary mb-2 text-lg">Global Expansion</h4>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm">Opened offices in London and Singapore, expanding our enterprise services to the global healthcare and logistics sectors.</p>
+</div>
+<!-- Timeline Item 4 -->
+<div class="relative pl-8 md:w-1/2 md:ml-auto md:pl-12 group">
+<div class="absolute w-3 h-3 bg-border-subtle group-hover:bg-primary-container transition-colors rounded-full -left-[6px] top-1.5 ring-4 ring-surface-white"></div>
+<span class="font-label-sm text-label-sm text-primary mb-1 block">2024</span>
+<h4 class="font-headline-md text-headline-md text-text-primary mb-2 text-lg">AI Integration</h4>
+<p class="font-body-md text-body-md text-on-surface-variant text-sm">Launched our next-gen predictive analytics suite, embedding machine learning directly into core ERP workflows.</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-white dark:bg-inverse-surface border-t border-border-subtle dark:border-outline full-width bottom">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-margin-mobile md:px-margin-desktop py-12 max-w-container-max mx-auto">
+<!-- Brand & Copyright -->
+<div class="col-span-1 md:col-span-2 flex flex-col justify-between h-full">
+<a class="font-headline-md text-headline-md font-bold text-text-primary dark:text-primary-fixed-dim flex items-center gap-2 mb-6" href="#">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">dataset</span>
+                    Data ERP Systems
+                </a>
+<p class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant mt-auto">
+                    © 2024 Data ERP Systems. Empowering enterprise intelligence.
+                </p>
+</div>
+<!-- Links Column 1 -->
+<div class="col-span-1 flex flex-col gap-3">
+<h4 class="font-label-sm text-label-sm text-text-primary uppercase tracking-wider mb-2">Solutions</h4>
+<a class="font-label-sm text-label-sm text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed hover:underline transition-all" href="#">IT Consulting</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed hover:underline transition-all" href="#">ERP Solutions</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed hover:underline transition-all" href="#">Staffing Services</a>
+</div>
+<!-- Links Column 2 -->
+<div class="col-span-1 flex flex-col gap-3">
+<h4 class="font-label-sm text-label-sm text-text-primary uppercase tracking-wider mb-2">Industries &amp; Legal</h4>
+<a class="font-label-sm text-label-sm text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed hover:underline transition-all" href="#">Manufacturing</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed hover:underline transition-all" href="#">Healthcare</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed hover:underline transition-all" href="#">Privacy Policy</a>
+</div>
+</div>
+</footer>
+</body></html>

@@ -1,0 +1,1004 @@
+{
+  "home": {
+    "hero": {
+      "headline": "DATAERPSYS",
+      "sub": "Solutions that are Tailor Engineered to Simplify, Automate and Streamline your Business Process.",
+      "intro": "DataERPsys automation and paperless process can save companies millions of dollars per year. Our insights on leveraging technology to drive exponential business outcomes is what sets us apart."
+    },
+    "sections": [
+      {
+        "heading": "Who We Are",
+        "subheading": "We Implement Best Application Support",
+        "body": "Custom application support architecture covering on-call production support, proactive maintenance, bug-fixing, enhancements, user support and training.",
+        "items": ["Happy Clients", "Years Of Experience", "Employees", "Client Meetings", "Projects", "Happy Client"]
+      },
+      {
+        "heading": "What We Offer",
+        "body": "A complete range of affordable services and Solutions including ERP Systems, application services, support, and software testing across multiple industries.",
+        "items": ["SAP S/4 HANA", "CSS 3", "Coding", "JQUERY", "Passion", "WordPress", "Angular JS", "Node JS"]
+      },
+      {
+        "heading": "Why Choose Us",
+        "body": "Six pillars of how we deliver value.",
+        "items": [
+          "Responsive Design Layout - Layouts that adapt to user's screen resolution.",
+          "Coding Quality - Professional coders maintain Proper Commenting order.",
+          "Great Support - 24/7 assistance available.",
+          "Software Testing Services - Process of identifying errors or glitches including performance, mobile, usability, and security testing.",
+          "Consulting Services - Helping businesses keep pace with today's fast-moving IT landscape.",
+          "Software Testing - Independent quality engineering and wide range of software testing services."
+        ]
+      },
+      {
+        "heading": "Featured Services",
+        "body": "Service cards displayed on the homepage.",
+        "items": ["IT Consulting", "ERP Solutions", "Manufacturing", "Marketing Plan", "Staffing Services", "Global Business", "Finance/Accounting"]
+      },
+      {
+        "heading": "Client Testimonials",
+        "body": "Voices from our clients.",
+        "items": [
+          "Jessica (Consultant): DataERPsys understood and implemented everything I requested...very satisfied.",
+          "Joseph (CEO): Consultants analyzed our workloads and delivered demos every other week.",
+          "Aaron Na (Recruiter): Quality talent and top-notch customer service."
+        ]
+      },
+      {
+        "heading": "Get in Touch with One of the Best ERP Solutions For your Company",
+        "body": "Contact form with fields: Name, Email, Mobile, Website, Subject.",
+        "items": []
+      }
+    ],
+    "images": [
+      "https://dataerpsys.com/wp-content/uploads/2022/03/business-img.png"
+    ],
+    "ctas": ["Our Services", "Submiit", "Contact Us Today"]
+  },
+  "it-services": {
+    "hero": {
+      "headline": "IT Services",
+      "sub": "As a leading IT services company, we provide end-to-end digital transformation services."
+    },
+    "sections": [
+      {
+        "heading": "IT Services We Provide",
+        "body": "Our solutions are tailored to help brands create the change they visualize through the use of technology and become the voice of digital revolution.",
+        "items": ["SAP Services", "Application Development", "Oracle Services", "Mobile App Development", "Software Testing & QA"]
+      },
+      {
+        "heading": "Why Work with Us",
+        "body": "Statistics highlighting our impact.",
+        "items": ["Customer Satisfaction", "Specialists In Team", "Industry Awards", "Successful Projects"]
+      },
+      {
+        "heading": "Free Consultation",
+        "body": "Reach out for a no-obligation consultation.",
+        "items": []
+      }
+    ],
+    "images": [
+      "https://dataerpsys.com/wp-content/uploads/2022/06/sap-service.png",
+      "https://dataerpsys.com/wp-content/uploads/2022/06/oracle-service.png",
+      "https://dataerpsys.com/wp-content/uploads/2022/03/photo-of-people-leaning-on-wooden-table-3184325-1024x512.webp",
+      "https://dataerpsys.com/wp-content/uploads/2022/03/web-development-1024x550.jpg",
+      "https://dataerpsys.com/wp-content/uploads/2022/03/cover-responsive-lasta-768x437.png"
+    ],
+    "ctas": ["Contact Us Today", "Online Contact Form"]
+  },
+  "it-services-sap": {
+    "hero": {
+      "headline": "SAP",
+      "sub": "Our SAP services range from short term assignments to full scale projects in traditional ERP and emerging technologies."
+    },
+    "sections": [
+      {
+        "heading": "Recalibrating your ERP strategy",
+        "body": "",
+        "items": []
+      },
+      {
+        "heading": "Build Your SAP Solution with Data ERP System",
+        "body": "This is time for collaboration. Together we are more powerful than we are apart. A modernized, powerful digital core is vital for a world enriched and powered by data. We work with clients to optimize business performance through SAP solutions, enabling agility, flexibility, and efficiency with data-driven foundations.",
+        "items": []
+      },
+      {
+        "heading": "SAP Services Offered",
+        "body": "",
+        "items": [
+          "SAP S/4HANA Services - Integrated business planning and digital transition strategies",
+          "SAP Platform Modernization - End-to-end approach to improve efficiency and reduce costs",
+          "SAP S/4 HANA Implementation - Backed by 14 years of experience",
+          "SAP S/4 HANA Migration Services - Integrated planning for migrations",
+          "SAP ERP Central Component - On-premises ERP system assistance",
+          "SAP Analytics Cloud - Enterprise planning and business intelligence",
+          "SAP Platform & Infrastructure - Digital architecture and cloud services",
+          "SAP Application Management - Development, implementation, testing, support",
+          "SAP Human Capital Management - HR processes and employee experiences",
+          "SNP's BLUEFIELD - Faster S/4HANA pathway with automation"
+        ]
+      },
+      {
+        "heading": "How We Can Help",
+        "body": "",
+        "items": [
+          "Optimization",
+          "Upgrades and Migrations",
+          "Implementation",
+          "Custom Application Integration",
+          "Enterprise Support",
+          "Divestiture and Carve-Outs"
+        ]
+      },
+      {
+        "heading": "Why Partner with DES?",
+        "body": "",
+        "items": [
+          "Proven Methodology (14 years experience)",
+          "Unrivaled Expertise",
+          "Return on Investment",
+          "Strong Partnerships"
+        ]
+      }
+    ],
+    "images": [
+      "https://dataerpsys.com/wp-content/uploads/2021/12/MicrosoftTeams-image-28-1.png",
+      "https://dataerpsys.com/wp-content/uploads/2022/06/iQuantM-SAP-solutions-SAP-S4-HANA1-removebg-preview.png",
+      "https://dataerpsys.com/wp-content/uploads/2021/12/MicrosoftTeams-image-27-1.png",
+      "https://dataerpsys.com/wp-content/uploads/2022/06/ecc-sap.png"
+    ],
+    "ctas": ["Request Demo", "Contact Us Today"]
+  },
+  "it-services-oracle": {
+    "hero": {
+      "headline": "Oracle ERP Solutions",
+      "sub": "Oracle ERP brings business processes together to boost collaboration, drive business productivity, and support data-driven decisions."
+    },
+    "sections": [
+      {
+        "heading": "The Benefits of Implementing Oracle ERP",
+        "body": "Oracle serves as a major ERP market player, offering an extensive application suite. The cloud solution enables faster implementation timelines compared to traditional on-premise deployments. Key advantages include customizable reporting that reduces IT dependency and improved organizational efficiency.",
+        "items": []
+      },
+      {
+        "heading": "Scope of Staffing Solutions",
+        "body": "Consultants provide expertise across multiple domains to address client needs comprehensively, emphasizing enhanced productivity, cost reduction, and accelerated ROI through Oracle ERP implementation.",
+        "items": [
+          "Project Management",
+          "Supply Chain & Manufacturing",
+          "Analytics for Cloud ERP",
+          "Human Resources",
+          "Risk Management and Compliance",
+          "Customer Service",
+          "Oracle Financials Cloud",
+          "Business Intelligence & Analytics",
+          "Oracle EPM"
+        ]
+      },
+      {
+        "heading": "Why Choose Oracle ERP with Us?",
+        "body": "",
+        "items": [
+          "Nucleus Research ERP market leader for seven consecutive years",
+          "R&D investment exceeding $5 billion",
+          "430,000+ active customers",
+          "Extensive user group resources",
+          "Robust partner ecosystem"
+        ]
+      },
+      {
+        "heading": "Oracle Technologies Expertise",
+        "body": "Services span pre-implementation assessment through post-deployment support, including infrastructure evaluation and seamless Oracle EBS implementation.",
+        "items": []
+      },
+      {
+        "heading": "Get in Touch with One of the Best Oracle ERP Solutions",
+        "body": "Email subscription form.",
+        "items": []
+      }
+    ],
+    "images": [
+      "https://dataerpsys.com/wp-content/uploads/2022/06/enterprise-resource-planning.png",
+      "https://dataerpsys.com/wp-content/uploads/2022/06/project-management.png",
+      "https://dataerpsys.com/wp-content/uploads/2022/06/supply-chain.png",
+      "https://dataerpsys.com/wp-content/uploads/2022/06/cloud-analytics.png",
+      "https://dataerpsys.com/wp-content/uploads/2022/06/human-resources.png",
+      "https://dataerpsys.com/wp-content/uploads/2022/06/risk-management.png",
+      "https://dataerpsys.com/wp-content/uploads/2022/06/support.png",
+      "https://dataerpsys.com/wp-content/uploads/2022/06/business-analytics.png",
+      "https://dataerpsys.com/wp-content/uploads/2022/06/erp-1.png",
+      "https://dataerpsys.com/wp-content/uploads/2022/06/498-4983438_erp-software-hd-png-download-removebg-preview.png",
+      "https://dataerpsys.com/wp-content/uploads/2022/06/bussines_app_dev-removebg-preview.png"
+    ],
+    "ctas": ["Contact Us Today"]
+  },
+  "it-services-mobile-app-development": {
+    "hero": {
+      "headline": "Mobile App Development",
+      "sub": "Data ERP system (DES) has extensive experience in creating high performing, digitally transformative and feature-packed native mobile applications for Android and iOS devices."
+    },
+    "sections": [
+      {
+        "heading": "Mobile Application Development",
+        "subheading": "We craft user centered solutions for the digital future.",
+        "body": "A reliable app development provider offering mobile and web apps that power brands and start-ups. We have expertise in creating responsive and scalable mobile/web apps to help businesses sustain and grow operations.",
+        "items": []
+      },
+      {
+        "heading": "Our High-End Mobile App Development Services",
+        "body": "",
+        "items": [
+          "Mobile consulting",
+          "Mobile app integration",
+          "Mobile app modernization",
+          "Mobile app development (100+ completed projects)",
+          "Maintenance and support",
+          "Mobile app QA and testing",
+          "Mobile UX and UI design",
+          "Back end development"
+        ]
+      },
+      {
+        "heading": "Our Major Mobile App Development Technologies",
+        "body": "",
+        "items": [
+          "iOS App Development",
+          "Cross-Platform App Development",
+          "Wearables and Embedded Software",
+          "Hybrid Mobile App Development",
+          "Android App Development",
+          "Progressive Web App Development",
+          "Native Mobile App Development"
+        ]
+      },
+      {
+        "heading": "WHO WE ARE",
+        "subheading": "Your digital partner to create inspirational design and robust solution for Mobile & Cloud.",
+        "body": "The top-notch and preeminent Mobile App Development Company of India, offering award-winning tech, with a fixed price and delivery date.",
+        "items": []
+      },
+      {
+        "heading": "Mobile App Solutions For Verticals",
+        "body": "Industry-specific offerings.",
+        "items": ["Taxi", "Ecommerce", "Delivery", "Banking", "Streaming", "Telemedicine", "Booking", "Fitness"]
+      },
+      {
+        "heading": "Why Choose Us?",
+        "body": "UI/UX Design with compliance to Apple UI standards and seamless user experience design.",
+        "items": []
+      },
+      {
+        "heading": "Benefits of Having a Mobile App For Your Business",
+        "body": "",
+        "items": [
+          "Custom-built apps meet specific business requirements",
+          "Scalability for growing businesses",
+          "Enhanced data security features",
+          "Complete ownership and control",
+          "Real-time personalized customer updates",
+          "Data collection through integrated forms",
+          "Project progress tracking capabilities"
+        ]
+      }
+    ],
+    "images": [
+      "https://dataerpsys.com/wp-content/uploads/2021/12/MicrosoftTeams-image-28-1.png",
+      "https://dataerpsys.com/wp-content/uploads/2022/06/mobile-ux-ui.png",
+      "https://dataerpsys.com/wp-content/uploads/2022/06/department-1.png",
+      "https://dataerpsys.com/wp-content/uploads/2022/06/209-2091411_mobileup-engagement-apps-mobile-app-development-vector-hd-removebg-preview.png"
+    ],
+    "ctas": ["Request Demo", "Contact Us Today"]
+  },
+  "it-services-software-testing-qa": {
+    "hero": {
+      "headline": "Software Testing & QA",
+      "sub": "Experience Next-Gen software testing and Quality Assurance services with Data ERP Sys. We guarantee significant boost in deploying codes, improved Software development life cycle and cost-effectiveness at an unparalleled speed and quality."
+    },
+    "sections": [
+      {
+        "heading": "Ensure Quality Assurance. Enhance Customer Experience.",
+        "body": "DES delivers comprehensive quality engineering across desktop, mobile, and next-gen applications. The organization emphasizes a hands-on, end-to-end understanding of enterprise transformation challenges and implements methodologies through a Testing Center of Excellence and world-class software testing labs.",
+        "items": []
+      },
+      {
+        "heading": "Testing Services Offered",
+        "body": "",
+        "items": [
+          "Functional Testing - Validates software against functional requirements, focusing on UI, database, security, and APIs",
+          "Security Testing - Uncovers vulnerabilities through risk assessment and penetration testing",
+          "Compatibility Testing - Tests across browsers, databases, operating systems, and devices",
+          "Performance Testing - Addresses load time and responsiveness issues through behavior analysis",
+          "Usability Testing - Analyzes user behavior patterns to identify issues early",
+          "Mobile App Testing - Cross-platform functional/non-functional testing with manual and automated approaches"
+        ]
+      },
+      {
+        "heading": "Test Automation Capabilities",
+        "body": "",
+        "items": [
+          "Test automation strategy development",
+          "Test environment setup and configuration",
+          "Automated UI and API testing",
+          "Performance testing",
+          "CI/CD pipeline implementation"
+        ]
+      }
+    ],
+    "images": [
+      "https://dataerpsys.com/wp-content/uploads/2022/06/Poweerful-Insights-03-1024x1000.png",
+      "https://dataerpsys.com/wp-content/uploads/2022/03/banner-1-1024x743.png",
+      "https://dataerpsys.com/wp-content/uploads/2021/09/demo14-img1.png",
+      "https://dataerpsys.com/wp-content/uploads/2022/03/manual-testing-987x1024.png"
+    ],
+    "ctas": ["Request Demo", "Book your Service Today"]
+  },
+  "services-application-development": {
+    "hero": {
+      "headline": "Application Development",
+      "sub": "We craft user centered solutions for the digital future."
+    },
+    "sections": [
+      {
+        "heading": "Application Development Overview",
+        "body": "Our agile and cross functional teams deliver world-class web and mobile applications that can release features faster, are scalable, and provide a delightful customer experience.",
+        "items": []
+      },
+      {
+        "heading": "Core Service Features",
+        "body": "",
+        "items": [
+          "Affordable Pricing - Customizable pricing models for various project scales",
+          "Native Or HYBRID Development - Support for Swift, Objective C, Java, React, Cordova, and Titanium",
+          "Consistent Communication - Regular project status updates throughout development phases",
+          "Testing & Ongoing Support - Comprehensive testing and continued feature/OS compatibility support"
+        ]
+      },
+      {
+        "heading": "App Architecture Patterns",
+        "body": "",
+        "items": [
+          "Tiered architecture",
+          "Cloud-native architecture",
+          "Reactive architecture",
+          "Microservices architecture"
+        ]
+      },
+      {
+        "heading": "Why Choose Us",
+        "body": "At Lasta Technologies, we make sure that alongside growth of the company, our employees and client grow by providing a great work-life Culture.",
+        "items": []
+      }
+    ],
+    "images": [
+      "https://dataerpsys.com/wp-content/uploads/2022/03/hybrid.webp"
+    ],
+    "ctas": ["Contact Us Today"]
+  },
+  "services-application-support": {
+    "hero": {
+      "headline": "Application Support",
+      "sub": "Get the professional support you need to ensure your business applications keep pace with changing market trends, industry dynamics, and customer needs."
+    },
+    "sections": [
+      {
+        "heading": "Managed Application Support Services for Enhanced Efficiency and Results",
+        "body": "Customized application support for complex business systems like SAP, separating system improvements from daily maintenance needs through specialized architecture.",
+        "items": []
+      },
+      {
+        "heading": "Service Categories",
+        "body": "",
+        "items": [
+          "Application Maintenance - Utilize portfolio-based tactics pertaining to technology, information planning, public and services.",
+          "Enhancements & Bug Fixes - Administrators and Implementers can report potential bugs and request enhancements or new features.",
+          "ABAP & Java Tech Support - Our SAP ABAP Development Experts continually aim to explore and seek better ways to resolve even the most complex technical issues.",
+          "Classical Add-Ons",
+          "SAP Modules Functional Support",
+          "SAP Netweaver System's Support"
+        ]
+      },
+      {
+        "heading": "Support Levels (L0-L3)",
+        "body": "",
+        "items": [
+          "L0 - Knowledge base and user guidance materials",
+          "L1 - Basic issue resolution under 15 minutes",
+          "L2 - Serious incidents resolved in under 12 hours",
+          "L3 - Complex code and database fixes within 24 hours"
+        ]
+      }
+    ],
+    "images": [],
+    "ctas": ["Contact Us Today"]
+  },
+  "services-consulting-services": {
+    "hero": {
+      "headline": "Consulting Services",
+      "sub": "Our management consulting services focus on our clients' most critical issues and opportunities: strategy, marketing, organization, operations..."
+    },
+    "sections": [
+      {
+        "heading": "Information Technology Consulting",
+        "subheading": "Get Your Business and IT Strategies Aligned",
+        "body": "Businesses rely on IT consulting to stay competitive and leverage technology investments effectively.",
+        "items": []
+      },
+      {
+        "heading": "Dedicated IT Consulting Services",
+        "body": "",
+        "items": [
+          "Cybersecurity Consulting - Identifies security threats and gaps",
+          "Crisis Management Consulting - Helps maintain operability during critical situations",
+          "IT Infrastructure Support Services - Ensures stability and performance",
+          "Cloud Consulting Services - Maximizes cloud computing value",
+          "Remote Work Consulting - Enables secure work-from-home transitions"
+        ]
+      },
+      {
+        "heading": "Why Choose Data ERP System for IT Consulting Services?",
+        "body": "",
+        "items": [
+          "We Listen to Your Needs in Order to Plan an IT Strategy",
+          "We Align Our Tactics with Your Objectives",
+          "We Build Solutions Tailored to Your Enterprise",
+          "We Operate and Deliver Measurable Results"
+        ]
+      },
+      {
+        "heading": "Performance Metrics",
+        "body": "",
+        "items": [
+          "IT consulting: 99%",
+          "IT infrastructure monitoring 24/7: 98%",
+          "Cloud migration: 99%"
+        ]
+      }
+    ],
+    "images": [
+      "https://dataerpsys.com/wp-content/uploads/2022/03/it-consulting.png",
+      "https://dataerpsys.com/wp-content/uploads/2022/03/it-infrastructure-components-sciencesoft-1024x643.png",
+      "https://dataerpsys.com/wp-content/uploads/2022/03/consulting.png",
+      "https://dataerpsys.com/wp-content/uploads/2022/03/Consulting-together-removebg-preview.png"
+    ],
+    "ctas": ["Request Demo", "Contact Us Today"]
+  },
+  "services-offshore": {
+    "hero": {
+      "headline": "Offshore Outsourcing",
+      "sub": "Optimize Current Operations. Launch New Projects."
+    },
+    "sections": [
+      {
+        "heading": "Offshore Outsourcing",
+        "body": "Offshore IT services address industry talent shortages. In 2017, IT services dominated outsourced functions globally, with software application development taking 64% of the most outsourced IT functions worldwide.",
+        "items": []
+      },
+      {
+        "heading": "Service Offerings",
+        "body": "",
+        "items": [
+          "Infrastructure Support - Ensures stability and high performance across on-premises, cloud, or hybrid environments",
+          "Cloud Migration - Reduces physical resource needs and increases organizational productivity",
+          "Quality Assurance Services - Establishes control over product lifecycle and delivers accurate product quality information",
+          "Cloud App Development - Builds cloud-native applications leveraging cloud capabilities",
+          "Cyber Security Services - Provides expertise for security implementation across organizations",
+          "Remote Work Consulting - Enables work-from-home transitions while maintaining business continuity"
+        ]
+      },
+      {
+        "heading": "Key Statistics",
+        "body": "",
+        "items": [
+          "1.5-2x revenue growth from IT-based initiatives",
+          ">2x reduced IT service costs",
+          "2.5x higher business growth from freed resources"
+        ]
+      },
+      {
+        "heading": "Cooperation Models",
+        "body": "",
+        "items": ["Staff Augmentation", "Self-Managed Team", "Full Outsourcing"]
+      }
+    ],
+    "images": [],
+    "ctas": ["Request IT Outsourcing", "Discuss My OutSourcing Needs"]
+  },
+  "services-staffing-services": {
+    "hero": {
+      "headline": "Staffing Services",
+      "sub": "Hire an IT Professional in a Few Days Start the Process in a Few Minutes"
+    },
+    "sections": [
+      {
+        "heading": "Primary Description",
+        "body": "Staffing solutions find the right candidates and allow you to efficiently manage your workforce, thereby improving productivity and reducing employee turnover.",
+        "items": []
+      },
+      {
+        "heading": "Service Overview",
+        "body": "DataERPSys offers advanced staffing solutions in India and abroad, featuring access to extensive candidate databases and HR management systems.",
+        "items": []
+      },
+      {
+        "heading": "Scope of Staffing Solutions",
+        "body": "",
+        "items": [
+          "Permanent Staffing - DataERPSys provides clients their future employees who can add value and resources.",
+          "Contract-to-Hire - Contract staffing mutually benefits the company and the individual in that they are bound for a fixed period.",
+          "Contractual Basis - Our contract IT staffing services enable you to fill short-term or long-term opportunities.",
+          "Recruitment Process Outsourcing - Our RPO solutions are designed to meet the bespoke needs of our clients."
+        ]
+      },
+      {
+        "heading": "Process Metrics",
+        "body": "",
+        "items": [
+          "SOLVE: 99%",
+          "SOURCE: 95%",
+          "SCREEN: 98%",
+          "START: 99%",
+          "Testing: 97%",
+          "SERVICE: 95%"
+        ]
+      }
+    ],
+    "images": [
+      "https://dataerpsys.com/wp-content/uploads/2021/12/MicrosoftTeams-image-28-1.png",
+      "https://dataerpsys.com/wp-content/uploads/2021/12/MicrosoftTeams-image-27-1.png"
+    ],
+    "ctas": ["Request Staffing", "Contact Us Today"]
+  },
+  "industries-manufacturing": {
+    "hero": {
+      "headline": "Manufacturing",
+      "sub": "Manufacturing software are systems used to boost production, improve quality, meet regulations, track inventory, supply chain, crucial KPIs and satisfy patrons by getting merchandise to them faster."
+    },
+    "sections": [
+      {
+        "heading": "Application Development",
+        "subheading": "Optimized processes for your production",
+        "body": "",
+        "items": []
+      },
+      {
+        "heading": "SAP S/4HANA Cloud for manufacturing",
+        "body": "Planning and scheduling that enables creation of feasible production plans and ensures planning and execution are synchronized in real time.",
+        "items": []
+      },
+      {
+        "heading": "SAP Manufacturing Solutions",
+        "body": "Solutions integrate and embed intelligence in manufacturing processes for increased manufacturing efficiency.",
+        "items": [
+          "SAP Manufacturing Execution - MES system for monitoring production",
+          "SAP Manufacturing Integration & Intelligence - Real-time monitoring and data analysis",
+          "SAP OEE Package Solutions - Real-time performance improvements",
+          "SAP Digital Manufacturing Cloud - Analytics and execution integration",
+          "SAP HANA Cockpit - Administration and monitoring tools"
+        ]
+      },
+      {
+        "heading": "Why Choose Us?",
+        "body": "",
+        "items": [
+          "Better Planning",
+          "Stock Monitoring",
+          "Complete Automation",
+          "Resource Utilization",
+          "Efficient Quality Checks",
+          "Supply Chain Processing"
+        ]
+      }
+    ],
+    "images": [
+      "https://dataerpsys.com/wp-content/uploads/2022/06/iQuantM-SAP-solutions-SAP-S4-HANA1-removebg-preview.png",
+      "https://dataerpsys.com/wp-content/uploads/2022/06/Your-Challenges-Graphic.png"
+    ],
+    "ctas": ["Request Demo", "Contact Us Today", "Submiit"]
+  },
+  "industries-health-care": {
+    "hero": {
+      "headline": "Health Care",
+      "sub": "SAP healthcare solutions for industry reduce the cost of the inventory, the cost for life, spend on IT infrastructure and support to minimizes errors."
+    },
+    "sections": [
+      {
+        "heading": "Digital compliance and Collaboration",
+        "body": "",
+        "items": []
+      },
+      {
+        "heading": "SAP S/4 HANA Cloud for Health Care Industry",
+        "body": "SAP ERP for healthcare industry is a software technology that facilitates interaction across business services, enabling employees to work better and thereby increasing productivity.",
+        "items": []
+      },
+      {
+        "heading": "SAP Healthcare Services",
+        "body": "Improve patient safety and collaboration, with SAP Healthcare, organisations can promote patient engagement, optimise clinical outcomes and ensure value-based care delivery through innovative patient focused solutions.",
+        "items": [
+          "Wealth of Clinical Data",
+          "Focus on Better Patient Care",
+          "Making Supply Chain Efficient",
+          "Seamless and Personalized Interactions",
+          "Cost-Effective Solutions",
+          "Well-managed Human Resources",
+          "Compliance Assurance"
+        ]
+      },
+      {
+        "heading": "Why choose us?",
+        "body": "",
+        "items": [
+          "Contract Management",
+          "Stock Monitoring",
+          "Lot & Serial Management",
+          "Inventory Management",
+          "Purchasing",
+          "Financial Management",
+          "Supply Chain Processing"
+        ]
+      }
+    ],
+    "images": [
+      "https://dataerpsys.com/wp-content/uploads/2022/06/hsp.png",
+      "https://dataerpsys.com/wp-content/uploads/2022/06/mi.png"
+    ],
+    "ctas": ["Request Demo", "Contact Us Today"]
+  },
+  "industries-pharmaceutical": {
+    "hero": {
+      "headline": "Pharmaceutical & Life Sciences",
+      "sub": "Data ERP Sys (DES) provides SAP S/4HANA for Pharmaceutical Industry. Contact us to get SAP Support for Pharmaceutical Industry and SAP Solutions that increase the productivity of the employees and to respond easily to market demands."
+    },
+    "sections": [
+      {
+        "heading": "BRINGING THE FUTURE OF Pharmaceutical NEEDS",
+        "body": "SAP software system delivers a distinct solution for the production of drugs in an automated approach.",
+        "items": []
+      },
+      {
+        "heading": "SAP S/4HANA Cloud for Pharmaceutical Industry",
+        "body": "Pharmaceutical companies must concentrate on effective drug manufacturing while managing regulatory compliance across finance, accounting, sales, and production through integrated software.",
+        "items": []
+      },
+      {
+        "heading": "Key Features",
+        "body": "",
+        "items": [
+          "Complete Solution",
+          "Add Ons",
+          "Demand Based Production",
+          "Customization",
+          "Support & Training"
+        ]
+      },
+      {
+        "heading": "Major Benefits",
+        "body": "Includes automated vendor recognition, expiry date alerts, seamless sales/service processes, production scheduling, and real-time financial tracking.",
+        "items": []
+      },
+      {
+        "heading": "Why Choose Us",
+        "body": "",
+        "items": [
+          "MEETS GMP",
+          "STOCK MONITORING",
+          "CHECKING EXPIRY",
+          "COMPLETE AUTOMATION",
+          "RESOURCE UTILIZATION",
+          "EFFICIENT QUALITY CHECKS",
+          "REAL TIME REPORTS"
+        ]
+      }
+    ],
+    "images": [
+      "https://dataerpsys.com/wp-content/uploads/2022/06/istockphoto-1133376756-612x612-removebg-preview.png",
+      "https://dataerpsys.com/wp-content/uploads/2022/06/istockphoto-1163166428-612x612-removebg-preview.png"
+    ],
+    "ctas": ["Request Demo", "Contact Us Today"]
+  },
+  "industries-transportation": {
+    "hero": {
+      "headline": "Transportation",
+      "sub": "SAP Transportation Management is a unified and holistic platform for addressing transportation and logistics needs with end-to-end visibility of all freight operations."
+    },
+    "sections": [
+      {
+        "heading": "SAP Transportation Management",
+        "body": "SAP TM integrates with SAP ERP ECC 6.0 or SAP S/4HANA to optimize freight orders across all transportation types. The system enhances material and goods flows while lowering transportation costs, supporting planning, execution, and freight cost billing.",
+        "items": []
+      },
+      {
+        "heading": "SAP Transportation Management Modules",
+        "body": "Physical goods transportation activities including transfer orders, freight bookings, carrier selection, and transportation monitoring.",
+        "items": [
+          "Strategic Freight Management - Streamline quote-to-contract processes and negotiate freight rates with carriers",
+          "Shipment Management - Simplified logistics operations with dynamic procedures and customized pricing rules",
+          "Planning - Automated route planning and carrier selection with load optimization",
+          "Order Management - Integration with SAP S/4HANA and third-party ERP systems for real-time order-to-cash processes",
+          "Analytics - Real-time data-driven insights for planning optimization"
+        ]
+      },
+      {
+        "heading": "Need ERP Transportation Software?",
+        "body": "Data ERP System offers competent SAP S/4HANA solutions optimized for production planning and Industry 4.0 readiness across sectors.",
+        "items": []
+      },
+      {
+        "heading": "Benefits of SAP S/4HANA Transportation Solutions",
+        "body": "",
+        "items": [
+          "Reduced costs and improved operational performance",
+          "Automated booking and administrative efficiency",
+          "Complete transportation management from planning through billing",
+          "Fleet optimization and external provider contracting",
+          "Real-time KPIs and transparent cost allocation",
+          "Integration with SAP logistics modules (EWM, Yard Logistics, Global Track & Trace)"
+        ]
+      },
+      {
+        "heading": "Why Choose Us?",
+        "body": "Transportation management software optimizes loads and delivery routes while automating compliance and billing tasks.",
+        "items": [
+          "Better Planning",
+          "Stock Monitoring",
+          "Transportation Network Management",
+          "Complete Automation",
+          "Resource Utilization",
+          "Enterprise Services",
+          "ERP Logistics Integration",
+          "Supply Chain Processing"
+        ]
+      }
+    ],
+    "images": [
+      "https://dataerpsys.com/wp-content/uploads/2022/06/rail-transport-logistics-mode-of-transport-public-transport-png-favpng-W9qNpWLHvUSXHMM4U1W1TaxaD-removebg-preview.png",
+      "https://dataerpsys.com/wp-content/uploads/2022/06/transportation-removebg-preview.png"
+    ],
+    "ctas": ["Request Demo", "Contact Us Today", "Get in Touch with One of the Best Transportation ERP Software"]
+  },
+  "industries-aerospace": {
+    "hero": {
+      "headline": "Aerospace",
+      "sub": "Delivering up to half of overall revenue, data-related services will help aerospace and defence (A&D) companies reduce time to market for innovations without compromising safety, while simulating innovation scenarios along a complex value chain."
+    },
+    "sections": [
+      {
+        "heading": "SAP S/4HANA for Aerospace & Defence Industries",
+        "body": "The aerospace and defense sector requires SAP solutions to address globalization pressures, shrinking budgets, and emerging technologies like autonomous aircraft and electric propulsion. Companies must streamline operations while maintaining innovation in response to cyber security challenges and rising customer expectations.",
+        "items": []
+      },
+      {
+        "heading": "Key Challenge Areas",
+        "body": "",
+        "items": [
+          "Disparate Systems - Multiple disconnected platforms create inefficiencies and lack unified data accuracy for informed decision-making.",
+          "Cyber Security Regulations - Integrated software enables regulatory compliance and profitable growth through unified operations.",
+          "Database and Data Management - Real-time analytics and cloud-based solutions improve efficiency and cost control.",
+          "Supply Chain Pressures - Near real-time data optimizes supplier networks while reducing costs.",
+          "Human Resources - SAP SuccessFactors Suite empowers workforce development and engagement."
+        ]
+      },
+      {
+        "heading": "Why choose us?",
+        "body": "Benefits include integrated planning, incident/risk management, complete automation, resource optimization, quality assurance, and supply chain processing.",
+        "items": [
+          "Integrated Planning",
+          "Incident/Risk Management",
+          "Complete Automation",
+          "Resource Optimization",
+          "Quality Assurance",
+          "Supply Chain Processing"
+        ]
+      }
+    ],
+    "images": [
+      "https://dataerpsys.com/wp-content/uploads/2022/06/erp-for-defense-aerospace-industry.jpg"
+    ],
+    "ctas": ["Request Demo", "Contact Us Today"]
+  },
+  "industries-service-sector": {
+    "hero": {
+      "headline": "Service Sector",
+      "sub": "Clients are more demanding than ever. To grow profitably, professional services firms must align every aspect of their operations to deliver consistent quality and high-value services to their clients."
+    },
+    "sections": [
+      {
+        "heading": "Application Development",
+        "subheading": "Optimized processes for your production",
+        "body": "",
+        "items": []
+      },
+      {
+        "heading": "SAP S/4HANA for the Service Industry",
+        "body": "The implementation supports service request creation and order management. Customer service representatives use an integrated knowledgebase, with escalation to technician dispatch when needed. The system manages prioritized service call queues, spare parts ordering, and remote execution tracking based on time, materials, service agreements, and warranties.",
+        "items": []
+      },
+      {
+        "heading": "Our SAP Service Sector Solutions",
+        "body": "Industry solutions driven by intelligent technologies that support best-practice business processes.",
+        "items": [
+          "Web Request",
+          "SAP FI Module",
+          "SAP Human Resource Management",
+          "Social Application (SOA)",
+          "SAP CO Module",
+          "SAP Field Service Management"
+        ]
+      },
+      {
+        "heading": "Benefits of SAP S/4HANA in Service Sector Industry",
+        "body": "Nine key benefits covering implementation frameworks, project management, digital transformation, cloud ERP capabilities, data security, inventory management, scalability, and consulting services.",
+        "items": []
+      },
+      {
+        "heading": "Why Choose Us?",
+        "body": "",
+        "items": [
+          "Better Planning",
+          "Stock Monitoring",
+          "Complete Automation",
+          "Resource Utilization",
+          "Efficient Quality Checks",
+          "Supply Chain Processing"
+        ]
+      }
+    ],
+    "images": [
+      "https://dataerpsys.com/wp-content/uploads/2022/06/sap-erp-modules-removebg-preview.png",
+      "https://dataerpsys.com/wp-content/uploads/2022/06/depositphotos_8777506-stock-illustration-red-button-download-removebg-preview.png"
+    ],
+    "ctas": ["Request Demo", "Contact Us Today"]
+  },
+  "our-clients": {
+    "hero": {
+      "headline": "Our Clients",
+      "sub": "We take a client first approach to all that we do. The happy customer, an often untapped marketing asset, can play a powerful role in the success of a business."
+    },
+    "sections": [
+      {
+        "heading": "Client Philosophy",
+        "body": "We emphasize good client fit and collaborative partnerships. We work with diverse organizations including businesses, nonprofits, schools, government agencies, and retailers across multiple sectors.",
+        "items": []
+      },
+      {
+        "heading": "What We Look For in Clients",
+        "body": "",
+        "items": [
+          "Vision",
+          "Respect",
+          "Responsible",
+          "Passion",
+          "Direct",
+          "Relationship-oriented",
+          "Openness",
+          "Value"
+        ]
+      },
+      {
+        "heading": "Featured Clients",
+        "body": "",
+        "items": [
+          "KPIT",
+          "Matchpoint Solutions",
+          "Pace",
+          "Sparta",
+          "SGS Synergy",
+          "VOLT",
+          "Wise Men"
+        ]
+      },
+      {
+        "heading": "Testimonials",
+        "body": "",
+        "items": [
+          "Jessica (Consultant): DES understood and implemented everything I requested. They never pushed back on any requirements—instead, they accomplished all of them.",
+          "Joseph (CEO): DES consultants analyzed our workloads and provided a clear project roadmap with biweekly demos ensuring alignment.",
+          "Aaron Na (Recruiter): DES provided quality talent and top-notch customer service. I highly recommend them for development needs."
+        ]
+      }
+    ],
+    "testimonials": [
+      {"name": "Jessica", "role": "Consultant", "quote": "DES understood and implemented everything I requested. They never pushed back on any requirements—instead, they accomplished all of them."},
+      {"name": "Joseph", "role": "CEO", "quote": "DES consultants analyzed our workloads and provided a clear project roadmap with biweekly demos ensuring alignment."},
+      {"name": "Aaron Na", "role": "Recruiter", "quote": "DES provided quality talent and top-notch customer service. I highly recommend them for development needs."}
+    ],
+    "images": [],
+    "ctas": ["Contact Us Today", "Get in Touch with One of the Best ERP Solutions for your Company"]
+  },
+  "careers": {
+    "hero": {
+      "headline": "Careers",
+      "sub": "Tell us more about yourself and we'll keep you up-to-date regarding upcoming events and career opportunities that match your interests."
+    },
+    "sections": [
+      {
+        "heading": "Join Our Team At Data ERP Systems",
+        "body": "We offer opportunities across engineering, finance, HR, IT, and operations with career development focus.",
+        "items": []
+      },
+      {
+        "heading": "Benefits / Perks",
+        "body": "",
+        "items": [
+          "Beautiful Office",
+          "Easy Location",
+          "Lunch & Snacks",
+          "Great Co-Workers",
+          "Education Opportunity",
+          "Performance Award"
+        ]
+      },
+      {
+        "heading": "Life at Data ERP Systems",
+        "body": "We focus on ERP systems and application management, seeking candidates with passion for customer success.",
+        "items": []
+      },
+      {
+        "heading": "Recruitment Process",
+        "body": "",
+        "items": [
+          "Resume Submission",
+          "Phone Screening",
+          "Skill Assessment",
+          "Final Interview"
+        ]
+      },
+      {
+        "heading": "To Apply Online Fill Up The Given Form Below",
+        "body": "Application form fields: Name, Email, Mobile No, Subject, Website, Short Info About You, Resume Upload.",
+        "items": []
+      }
+    ],
+    "images": [
+      "https://dataerpsys.com/wp-content/uploads/2022/04/cropped-dataerpsys-cropped-transparent-final-250x50.png"
+    ],
+    "ctas": ["Send"]
+  },
+  "faqs": {
+    "hero": {
+      "headline": "Ask Us Anything",
+      "sub": ""
+    },
+    "faqs": [
+      {"question": "What is ERP? What Does ERP Even Mean?", "answer": "ERP is an acronym that stands for Enterprise Resource Planning, designed to help organizations manage operations and provide visibility into available resources."},
+      {"question": "Isn't ERP software just for finance and accounting?", "answer": "While companies often adopt ERP when accounting software falls short, ERP systems manage much more, including manufacturing, distribution, CRM, and inventory management."},
+      {"question": "When is the right time to update our ERP system?", "answer": "Key signs include doubled decision time, increased working capital tied up in inventory, redundant software programs, suffering customer experience, and growth needs exceeding current system capacity."},
+      {"question": "What is the best ERP software for our business?", "answer": "The answer of course is – it depends, on manufacturing type, business size, industry compliance, and IT considerations like ease of use and total cost of ownership."},
+      {"question": "What are the advantages of cloud-based ERP?", "answer": "Cloud ERP reduces in-house support needs, saves hardware costs, scales easily, and improves information sharing across regions."},
+      {"question": "How is ERP different from MRP?", "answer": "MRP tracked parts and components; ERP expanded this to integrate financial, sales, and production operations into end-to-end business management."},
+      {"question": "How do we measure the ROI of implementing ERP software?", "answer": "Companies measure ROI through cost/time savings, reduced risks, improved governance, and automation benefits across various departments."},
+      {"question": "We don't know. Can you help us define our ERP requirements?", "answer": "We offer preliminary assessments and modeled blueprints evaluating strategic objectives, current processes, IT maturity, and information needs."},
+      {"question": "What is Two-Tier ERP?", "answer": "Businesses maintain multiple ERP solutions—a large-scale enterprise system plus a second solution for specific divisions, sharing data via EDI and cloud technologies."},
+      {"question": "Can you help with my ERP Implementation Software?", "answer": "Contact info@dataerpsys.com or (+91) 9848045513 for assistance with ERP implementation according to organizational requirements."},
+      {"question": "What Is ERP Implementation Methodology?", "answer": "Five rollout methodologies exist: phased, parallel, pilot, combination, and SaaS-based approaches, varying by company size and industry."},
+      {"question": "How does SAP HANA compare to Oracle or IBM?", "answer": "SAP HANA functions as a database replacement offering superior performance through in-memory processing capabilities versus caching solutions."},
+      {"question": "Does SAP HANA require indexes or aggregates?", "answer": "Every column in SAP HANA is stored as an index, eliminating separate primary indexes; aggregation is unnecessary given HANA's processing speed."},
+      {"question": "Is SAP HANA a row- or column-oriented database?", "answer": "SAP HANA stores data for processing primarily in columnar format, designed efficiently for all database operations, with 99% of ERP tables using columnar storage."},
+      {"question": "What Operating Systems does SAP HANA run on?", "answer": "Supported on Intel x86 with SUSE Linux and RedHat Linux; IBM POWER supports SUSE Linux only."},
+      {"question": "What language was SAP HANA written in?", "answer": "The majority of the SAP HANA software stack was written in C++, with select optimizations in C, machine code, Python, HTML, and JavaScript."}
+    ],
+    "ctas": ["Request Demo"]
+  },
+  "contact": {
+    "hero": {
+      "headline": "Lets Connect",
+      "sub": "CONTACT NOW"
+    },
+    "info": {
+      "address": "Plot No 21, III Floor, Shakti Nagar Moosapet, Hyderabad - 500018 Telangana, INDIA",
+      "phone": "(+91) 9848045513",
+      "email": "info@dataerpsys.com",
+      "hours": "Monday - Friday Timings - 09:00 AM - 06:00 PM (Saturday and Sunday holidays)"
+    },
+    "sections": [
+      {"heading": "Lets Connect", "body": "", "items": []},
+      {"heading": "Leave A Message", "body": "", "items": []},
+      {"heading": "Reach Us At", "body": "", "items": []},
+      {"heading": "Our Office Address", "body": "", "items": []}
+    ],
+    "images": [
+      "https://dataerpsys.com/wp-content/uploads/2022/04/cropped-dataerpsys-cropped-transparent-final-250x50.png"
+    ],
+    "ctas": ["CONTACT NOW"],
+    "social": ["Facebook", "Twitter", "Instagram", "LinkedIn"]
+  }
+}

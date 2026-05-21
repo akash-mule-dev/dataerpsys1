@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Data ERP Systems - Aerospace Industry Solutions</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "text-muted": "#475569",
+                      "on-secondary-container": "#4f4f82",
+                      "outline": "#747686",
+                      "on-error-container": "#93000a",
+                      "outline-variant": "#c3c5d7",
+                      "error": "#EF4444",
+                      "primary": "#003baa",
+                      "on-primary-container": "#cbd5ff",
+                      "secondary": "#59598d",
+                      "surface": "#f7f9fc",
+                      "on-primary": "#ffffff",
+                      "inverse-on-surface": "#eff1f4",
+                      "surface-container-highest": "#e0e3e6",
+                      "surface-container-high": "#e6e8eb",
+                      "success": "#10B981",
+                      "surface-variant": "#e0e3e6",
+                      "surface-container-lowest": "#ffffff",
+                      "secondary-container": "#c5c4ff",
+                      "on-tertiary-fixed": "#0b1c30",
+                      "surface-bright": "#f7f9fc",
+                      "on-primary-fixed": "#00164d",
+                      "on-background": "#191c1e",
+                      "surface-white": "#FFFFFF",
+                      "surface-tint": "#1e53d3",
+                      "on-secondary-fixed": "#161545",
+                      "on-tertiary-container": "#c7d7f2",
+                      "on-surface": "#191c1e",
+                      "primary-fixed-dim": "#b5c4ff",
+                      "inverse-primary": "#b5c4ff",
+                      "text-primary": "#0A083B",
+                      "on-secondary-fixed-variant": "#424274",
+                      "primary-container": "#1c52d2",
+                      "surface-container-low": "#f2f4f7",
+                      "tertiary-fixed-dim": "#b7c8e1",
+                      "secondary-fixed": "#e2dfff",
+                      "on-surface-variant": "#434654",
+                      "tertiary": "#37465c",
+                      "tertiary-fixed": "#d3e4fe",
+                      "on-primary-fixed-variant": "#003cad",
+                      "on-secondary": "#ffffff",
+                      "on-error": "#ffffff",
+                      "on-tertiary-fixed-variant": "#38485d",
+                      "error-container": "#ffdad6",
+                      "surface-dim": "#d8dadd",
+                      "inverse-surface": "#2d3133",
+                      "background": "#f7f9fc",
+                      "tertiary-container": "#4e5e74",
+                      "secondary-fixed-dim": "#c2c1fc",
+                      "border-subtle": "#E2E8F0",
+                      "primary-fixed": "#dce1ff",
+                      "on-tertiary": "#ffffff",
+                      "surface-container": "#eceef1"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "spacing": {
+                      "margin-mobile": "16px",
+                      "gutter": "24px",
+                      "margin-desktop": "48px",
+                      "base": "8px",
+                      "container-max": "1280px"
+              },
+              "fontFamily": {
+                      "body-md": [
+                              "Hanken Grotesk"
+                      ],
+                      "body-lg": [
+                              "Hanken Grotesk"
+                      ],
+                      "headline-md": [
+                              "Hanken Grotesk"
+                      ],
+                      "headline-xl": [
+                              "Hanken Grotesk"
+                      ],
+                      "label-sm": [
+                              "Hanken Grotesk"
+                      ],
+                      "headline-lg": [
+                              "Hanken Grotesk"
+                      ],
+                      "label-md": [
+                              "Hanken Grotesk"
+                      ],
+                      "headline-lg-mobile": [
+                              "Hanken Grotesk"
+                      ]
+              },
+              "fontSize": {
+                      "body-md": [
+                              "16px",
+                              {
+                                      "lineHeight": "1.5",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "body-lg": [
+                              "18px",
+                              {
+                                      "lineHeight": "1.6",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "headline-md": [
+                              "24px",
+                              {
+                                      "lineHeight": "1.3",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "headline-xl": [
+                              "48px",
+                              {
+                                      "lineHeight": "1.1",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "label-sm": [
+                              "12px",
+                              {
+                                      "lineHeight": "1.2",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "headline-lg": [
+                              "32px",
+                              {
+                                      "lineHeight": "1.2",
+                                      "letterSpacing": "-0.01em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "label-md": [
+                              "14px",
+                              {
+                                      "lineHeight": "1.4",
+                                      "letterSpacing": "0.01em",
+                                      "fontWeight": "500"
+                              }
+                      ],
+                      "headline-lg-mobile": [
+                              "28px",
+                              {
+                                      "lineHeight": "1.2",
+                                      "fontWeight": "600"
+                              }
+                      ]
+              }
+      },
+          },
+        }
+      </script>
+<style>
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        .bento-card {
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+        .bento-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(10, 8, 59, 0.05);
+        }
+        .tech-pattern {
+            background-image: radial-gradient(var(--tw-colors-border-subtle) 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+      </style>
+</head>
+<body class="bg-background text-on-surface font-body-md antialiased selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<header class="bg-surface-white dark:bg-on-background sticky top-0 w-full border-b border-border-subtle dark:border-outline-variant flat no shadows z-50 transition-all duration-200 ease-in-out">
+<div class="flex justify-between items-center h-16 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<div class="flex items-center gap-8">
+<a class="text-headline-md font-headline-md text-primary dark:text-primary-fixed-dim tracking-tight" href="#">
+                    Data ERP Systems
+                </a>
+<nav class="hidden md:flex items-center gap-6">
+<a class="text-text-muted dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim transition-colors text-label-md font-label-md" href="#">Services</a>
+<a class="text-primary dark:text-primary-fixed-dim font-bold border-b-2 border-primary pb-1 text-label-md font-label-md" href="#">Industries</a>
+<a class="text-text-muted dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim transition-colors text-label-md font-label-md" href="#">Solutions</a>
+<a class="text-text-muted dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim transition-colors text-label-md font-label-md" href="#">Resources</a>
+<a class="text-text-muted dark:text-on-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim transition-colors text-label-md font-label-md" href="#">About Us</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<button class="hidden md:inline-flex items-center justify-center px-6 py-3 border border-border-subtle text-text-primary bg-surface-white hover:bg-surface-container-low transition-colors rounded text-label-sm font-label-sm h-10">
+                    Login
+                </button>
+<button class="inline-flex items-center justify-center px-6 py-3 bg-primary-container text-on-primary hover:bg-primary transition-colors rounded text-label-sm font-label-sm h-10">
+                    Get a Demo
+                </button>
+</div>
+</div>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="relative pt-24 pb-32 overflow-hidden bg-surface-white border-b border-border-subtle tech-pattern">
+<div class="absolute inset-0 bg-gradient-to-b from-surface-white via-transparent to-surface-white opacity-80 z-0"></div>
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div class="max-w-2xl">
+<div class="inline-flex items-center gap-2 px-3 py-1 bg-primary-fixed rounded-full mb-6">
+<span class="material-symbols-outlined text-primary text-[16px]">flight_takeoff</span>
+<span class="text-primary text-label-sm font-label-sm uppercase tracking-wider">Aerospace &amp; Defense</span>
+</div>
+<h1 class="text-headline-xl font-headline-xl text-text-primary mb-6">
+                        Precision Engineering for the Future of Flight
+                    </h1>
+<p class="text-body-lg font-body-lg text-text-muted mb-8 leading-relaxed">
+                        Data ERP Systems delivers unyielding reliability and rigorous control for aerospace manufacturing. Track mission-critical parts, automate compliance, and drive engineering excellence with a system designed for the highest stakes.
+                    </p>
+<div class="flex flex-wrap gap-4">
+<button class="inline-flex items-center justify-center px-8 py-3 bg-primary-container text-on-primary hover:bg-primary transition-colors rounded text-label-sm font-label-sm h-12 shadow-sm">
+                            Explore Aerospace Solutions
+                        </button>
+<button class="inline-flex items-center justify-center px-8 py-3 border border-border-subtle text-text-primary bg-surface-white hover:bg-surface-container-low transition-colors rounded text-label-sm font-label-sm h-12">
+                            View Case Studies
+                        </button>
+</div>
+</div>
+<div class="relative h-[500px] w-full rounded-xl overflow-hidden border border-border-subtle shadow-[0_8px_30px_rgb(0,0,0,0.04)] bg-surface-container-lowest">
+<!-- Glassmorphism overlay card representing data -->
+<div class="absolute inset-0 z-0">
+<img alt="Commercial jet engine close up showing complex titanium fan blades and precision engineering details. The lighting is bright and clinical, emphasizing the metallic textures and flawless manufacturing quality in a modern hangar setting. Colors are predominantly cool grays and metallic silvers with subtle blue reflections." class="w-full h-full object-cover opacity-90" data-alt="A close-up, high-resolution photograph of a massive commercial jet engine's titanium fan blades, demonstrating precision engineering. The scene is brightly lit in a pristine, modern aerospace manufacturing facility, creating a clean, high-tech 'light mode' aesthetic. The color palette focuses on cool metallic silvers, clinical whites, and subtle accents of deep primary blue (#003baa) reflecting off the polished surfaces. The mood is authoritative, precise, and technologically advanced." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWiXl77hUwLNYnSt6OlIFJlRWsolI51MpTAEjXosbuMhrz2zz_GFk0DgmULmIU4UzRkvsLC0edbxSuiArSZuDyTp5qNXd05ebtNdh-SnIM-Lkypo0VdwmLAXeSf8JVfKRUU-qTt5x05gxrVscq1TH6kFTHKDly8MlvIxs_8b6P1TgADg5_jqKqI4Z7i6Nj1GjJZs094P0GzYzvJSN5M7Dil9u74eq97qP1RUk1Dejm8zMEDi9YESy341yiir-jv2mQVQ_yvu9_fkRk"/>
+</div>
+<div class="absolute bottom-6 left-6 right-6 z-10 glass-panel p-6 rounded-lg border border-border-subtle shadow-sm flex flex-col gap-4">
+<div class="flex justify-between items-center border-b border-border-subtle pb-3">
+<span class="text-label-md font-label-md text-text-muted">Part Integrity Status</span>
+<span class="inline-flex items-center gap-1 text-success text-label-sm font-label-sm bg-success/10 px-2 py-0.5 rounded">
+<span class="material-symbols-outlined text-[14px]">check_circle</span>
+                                Verified
+                            </span>
+</div>
+<div class="grid grid-cols-3 gap-4">
+<div>
+<p class="text-label-sm font-label-sm text-text-muted mb-1">Serial Num</p>
+<p class="text-body-md font-body-md text-text-primary font-medium">AE-9942-X</p>
+</div>
+<div>
+<p class="text-label-sm font-label-sm text-text-muted mb-1">Tolerance</p>
+<p class="text-body-md font-body-md text-text-primary font-medium">±0.001mm</p>
+</div>
+<div>
+<p class="text-label-sm font-label-sm text-text-muted mb-1">Testing</p>
+<p class="text-body-md font-body-md text-text-primary font-medium">Pass L4</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Bento Grid Feature Section -->
+<section class="py-24 bg-surface-container-low">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="text-center max-w-3xl mx-auto mb-16">
+<h2 class="text-headline-lg md:text-headline-lg font-headline-lg text-text-primary mb-4">Unyielding Control for Complex Manufacturing</h2>
+<p class="text-body-lg font-body-lg text-text-muted">Our ERP architecture is specifically configured to handle the rigorous demands, massive BOMs, and strict compliance requirements of the aerospace sector.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[minmax(280px,auto)]">
+<!-- Feature 1: Large Span -->
+<div class="md:col-span-2 bento-card bg-surface-white border border-border-subtle rounded-xl p-8 relative overflow-hidden flex flex-col justify-between">
+<div class="relative z-10 max-w-lg">
+<div class="w-12 h-12 rounded bg-primary-fixed flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-primary">lan</span>
+</div>
+<h3 class="text-headline-md font-headline-md text-text-primary mb-3">Supply Chain Tracking for Mission-Critical Parts</h3>
+<p class="text-body-md font-body-md text-text-muted">End-to-end traceability from raw material to assembled flight hardware. Ensure every component meets strict AS9100 standards with automated genealogy tracking and supplier quality management.</p>
+</div>
+<div class="absolute right-0 bottom-0 opacity-10 pointer-events-none translate-x-1/4 translate-y-1/4">
+<span class="material-symbols-outlined text-[240px]">conveyor_belt</span>
+</div>
+</div>
+<!-- Feature 2: Square -->
+<div class="bento-card bg-surface-white border border-border-subtle rounded-xl p-8 flex flex-col">
+<div class="w-12 h-12 rounded bg-secondary-fixed flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-secondary">fact_check</span>
+</div>
+<h3 class="text-headline-md font-headline-md text-text-primary mb-3 text-[20px]">Rigorous Testing Systems</h3>
+<p class="text-body-md font-body-md text-text-muted flex-grow">Integrate testing protocols directly into routing operations. Automatically capture test data, enforce hold codes on failure, and generate detailed certificates of conformance.</p>
+</div>
+<!-- Feature 3: Square -->
+<div class="bento-card bg-surface-white border border-border-subtle rounded-xl p-8 flex flex-col">
+<div class="w-12 h-12 rounded bg-tertiary-fixed flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-tertiary">gavel</span>
+</div>
+<h3 class="text-headline-md font-headline-md text-text-primary mb-3 text-[20px]">Compliance Management</h3>
+<p class="text-body-md font-body-md text-text-muted flex-grow">Built-in ITAR compliance, defense contract auditing tools, and automated reporting to keep your operations aligned with FAA and DoD regulations without manual overhead.</p>
+</div>
+<!-- Feature 4: Large Span Data Vis -->
+<div class="md:col-span-2 bento-card bg-on-background text-surface-white border border-border-subtle rounded-xl p-8 relative overflow-hidden flex flex-col justify-between">
+<div class="relative z-10 flex flex-col md:flex-row gap-8 items-center">
+<div class="flex-1">
+<div class="w-12 h-12 rounded bg-surface-variant/20 flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-surface-white">analytics</span>
+</div>
+<h3 class="text-headline-md font-headline-md mb-3 text-surface-white">Engineering Excellence Metrics</h3>
+<p class="text-body-md font-body-md text-outline-variant mb-6">Real-time visibility into production efficiency, scrap rates, and engineering change order (ECO) cycle times to drive continuous improvement.</p>
+<a class="inline-flex items-center gap-2 text-primary-fixed-dim hover:text-surface-white transition-colors text-label-md font-label-md" href="#">
+                                     View Analytics Dashboard <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+<!-- Abstract Data Vis Representation -->
+<div class="w-full md:w-1/2 h-48 bg-inverse-surface rounded border border-outline/30 p-4 flex flex-col gap-3">
+<div class="flex justify-between items-end h-full gap-2">
+<div class="w-1/6 bg-primary-container h-1/3 rounded-t"></div>
+<div class="w-1/6 bg-tertiary h-1/2 rounded-t"></div>
+<div class="w-1/6 bg-primary-container h-3/4 rounded-t"></div>
+<div class="w-1/6 bg-tertiary h-2/3 rounded-t"></div>
+<div class="w-1/6 bg-primary h-full rounded-t relative">
+<div class="absolute -top-6 left-1/2 -translate-x-1/2 bg-surface-white text-text-primary text-[10px] font-bold px-1 py-0.5 rounded">99.8%</div>
+</div>
+</div>
+<div class="flex justify-between text-[10px] text-outline-variant uppercase">
+<span>Q1</span><span>Q2</span><span>Q3</span><span>Q4</span><span>YTD</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-on-background dark:bg-surface-container-lowest w-full pt-16 pb-8 border-t border-outline dark:border-border-subtle flat no shadows">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto mb-12">
+<div class="col-span-1 md:col-span-1 flex flex-col gap-4">
+<a class="text-headline-md font-headline-md text-surface-white dark:text-on-background" href="#">
+                    Data ERP Systems
+                </a>
+<p class="text-body-md font-body-md text-surface-variant dark:text-text-muted mt-2">
+                    Built for Organized Intelligence.
+                </p>
+</div>
+<div class="col-span-1 flex flex-col gap-3">
+<span class="text-label-sm font-label-sm text-surface-variant uppercase tracking-wider mb-2">Solutions</span>
+<a class="text-body-md font-body-md text-surface-variant dark:text-text-muted hover:text-surface-white dark:hover:text-on-background hover:opacity-80 transition-opacity cursor-pointer duration-200" href="#">Services</a>
+<a class="text-primary-fixed dark:text-primary underline text-body-md font-body-md hover:opacity-80 transition-opacity cursor-pointer duration-200" href="#">Industries</a>
+</div>
+<div class="col-span-1 flex flex-col gap-3">
+<span class="text-label-sm font-label-sm text-surface-variant uppercase tracking-wider mb-2">Company</span>
+<a class="text-body-md font-body-md text-surface-variant dark:text-text-muted hover:text-surface-white dark:hover:text-on-background hover:opacity-80 transition-opacity cursor-pointer duration-200" href="#">About Us</a>
+<a class="text-body-md font-body-md text-surface-variant dark:text-text-muted hover:text-surface-white dark:hover:text-on-background hover:opacity-80 transition-opacity cursor-pointer duration-200" href="#">Careers</a>
+<a class="text-body-md font-body-md text-surface-variant dark:text-text-muted hover:text-surface-white dark:hover:text-on-background hover:opacity-80 transition-opacity cursor-pointer duration-200" href="#">Contact Us</a>
+</div>
+<div class="col-span-1 flex flex-col gap-3">
+<span class="text-label-sm font-label-sm text-surface-variant uppercase tracking-wider mb-2">Legal</span>
+<a class="text-body-md font-body-md text-surface-variant dark:text-text-muted hover:text-surface-white dark:hover:text-on-background hover:opacity-80 transition-opacity cursor-pointer duration-200" href="#">Privacy Policy</a>
+<a class="text-body-md font-body-md text-surface-variant dark:text-text-muted hover:text-surface-white dark:hover:text-on-background hover:opacity-80 transition-opacity cursor-pointer duration-200" href="#">Terms of Service</a>
+<a class="text-body-md font-body-md text-surface-variant dark:text-text-muted hover:text-surface-white dark:hover:text-on-background hover:opacity-80 transition-opacity cursor-pointer duration-200" href="#">Legal</a>
+<a class="text-body-md font-body-md text-surface-variant dark:text-text-muted hover:text-surface-white dark:hover:text-on-background hover:opacity-80 transition-opacity cursor-pointer duration-200" href="#">Cookie Policy</a>
+</div>
+</div>
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto border-t border-outline/30 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-label-sm font-label-sm text-surface-variant dark:text-text-muted">
+                © 2024 Data ERP Systems. All rights reserved. Built for Organized Intelligence.
+            </p>
+</div>
+</footer>
+</body></html>

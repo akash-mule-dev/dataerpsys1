@@ -5,7 +5,35 @@
       "WebFetch(domain:dataerpsys.com)",
       "mcp__stitch__get_project",
       "mcp__stitch__list_screens",
-      "Bash(npx --yes create-next-app@latest . --typescript --tailwind --app --src-dir --import-alias \"@/*\" --eslint --no-turbopack --use-npm --yes)"
-    ]
+      "Bash(npx --yes create-next-app@latest . --typescript --tailwind --app --src-dir --import-alias \"@/*\" --eslint --no-turbopack --use-npm --yes)",
+      "Bash(curl -sSL -o home.html \"https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ8Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpbCiVodG1sX2RiNDMxNWRjNTcwZjRhMjY5NGUzNzQ0Njc5MGM4NGNmEgsSBxCy4t7urxMYAZIBJAoKcHJvamVjdF9pZBIWQhQxMjAzNjc2MDY5ODgxMjU5NTkyNg&filename=&opi=89354086\")",
+      "Bash(bash \"c:/Users/admin/Documents/Repos/Gaurav/dataerpsys/dataerpsys1/.stitch-refs/download.sh\")",
+      "mcp__stitch__get_screen",
+      "Bash(PORT=3030 npm run dev)",
+      "Skill(update-config)",
+      "Skill(update-config:*)",
+      "Bash(curl -sS -o /tmp/home.html -w \"HTTP %{http_code} %{size_download}b\\\\n\" http://localhost:3030/)",
+      "Read(//tmp/**)",
+      "mcp__plugin_playwright_playwright__browser_resize",
+      "mcp__plugin_playwright_playwright__browser_navigate",
+      "mcp__plugin_playwright_playwright__browser_console_messages",
+      "mcp__plugin_playwright_playwright__browser_take_screenshot",
+      "mcp__plugin_playwright_playwright",
+      "mcp__plugin_playwright_playwright__browser_hover",
+      "Bash(curl -sS http://localhost:3030/sitemap.xml)",
+      "Bash(curl -sS http://localhost:3030/robots.txt)",
+      "Bash(curl -sS http://localhost:3030/)",
+      "Bash(curl -sS http://localhost:3030/ -o /tmp/home.html)",
+      "Bash(curl -sS http://localhost:3030/it-services/sap)",
+      "Bash(curl -sS http://localhost:3030/industries/aerospace)",
+      "Bash(curl -sS http://localhost:3030/faqs)",
+      "Bash(curl -sS http://localhost:3030/contact-us)",
+      "Bash(curl -sSL -o /tmp/sap-og.png \"http://localhost:3030/it-services/sap/opengraph-image\")",
+      "Bash(cp /tmp/sap-og.png \"c:/Users/admin/Documents/Repos/Gaurav/dataerpsys/dataerpsys1/.playwright-mcp/og-sap.png\")",
+      "Bash(curl -sSL -o \"c:/Users/admin/Documents/Repos/Gaurav/dataerpsys/dataerpsys1/.playwright-mcp/og-aerospace.png\" http://localhost:3030/industries/aerospace/opengraph-image)",
+      "Bash(curl -sSL -o \"c:/Users/admin/Documents/Repos/Gaurav/dataerpsys/dataerpsys1/.playwright-mcp/og-root.png\" http://localhost:3030/opengraph-image)",
+      "Bash(npm install *)"
+    ],
+    "defaultMode": "bypassPermissions"
   }
 }

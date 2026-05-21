@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Data ERP Systems - Tailor Engineered Solutions</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        body { font-family: 'Hanken Grotesk', sans-serif; }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "on-secondary-container": "#4f4f82",
+                      "on-secondary-fixed": "#161545",
+                      "surface-white": "#FFFFFF",
+                      "on-surface": "#191c1e",
+                      "surface-variant": "#e0e3e6",
+                      "surface-container-highest": "#e0e3e6",
+                      "on-tertiary": "#ffffff",
+                      "surface-container-high": "#e6e8eb",
+                      "on-error-container": "#93000a",
+                      "surface-tint": "#1e53d3",
+                      "on-primary-fixed-variant": "#003cad",
+                      "secondary-fixed-dim": "#c2c1fc",
+                      "on-primary-container": "#cbd5ff",
+                      "inverse-primary": "#b5c4ff",
+                      "surface-container-lowest": "#ffffff",
+                      "border-subtle": "#E2E8F0",
+                      "background": "#f7f9fc",
+                      "secondary": "#59598d",
+                      "secondary-fixed": "#e2dfff",
+                      "text-primary": "#0A083B",
+                      "on-tertiary-fixed": "#0b1c30",
+                      "on-secondary-fixed-variant": "#424274",
+                      "primary-fixed-dim": "#b5c4ff",
+                      "success": "#10B981",
+                      "text-muted": "#475569",
+                      "on-background": "#191c1e",
+                      "surface-container-low": "#f2f4f7",
+                      "on-secondary": "#ffffff",
+                      "surface-container": "#eceef1",
+                      "on-primary-fixed": "#00164d",
+                      "outline-variant": "#c3c5d7",
+                      "on-tertiary-fixed-variant": "#38485d",
+                      "primary": "#003baa",
+                      "on-primary": "#ffffff",
+                      "surface-bright": "#f7f9fc",
+                      "outline": "#747686",
+                      "tertiary-fixed-dim": "#b7c8e1",
+                      "surface-dim": "#d8dadd",
+                      "error": "#EF4444",
+                      "on-error": "#ffffff",
+                      "surface": "#f7f9fc",
+                      "primary-fixed": "#dce1ff",
+                      "tertiary": "#37465c",
+                      "on-tertiary-container": "#c7d7f2",
+                      "inverse-on-surface": "#eff1f4",
+                      "primary-container": "#1c52d2",
+                      "on-surface-variant": "#434654",
+                      "error-container": "#ffdad6",
+                      "inverse-surface": "#2d3133",
+                      "secondary-container": "#c5c4ff",
+                      "tertiary-container": "#4e5e74",
+                      "tertiary-fixed": "#d3e4fe"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "spacing": {
+                      "margin-mobile": "16px",
+                      "margin-desktop": "48px",
+                      "container-max": "1280px",
+                      "gutter": "24px",
+                      "base": "8px"
+              },
+              "fontFamily": {
+                      "body-lg": ["Hanken Grotesk"],
+                      "label-md": ["Hanken Grotesk"],
+                      "headline-md": ["Hanken Grotesk"],
+                      "label-sm": ["Hanken Grotesk"],
+                      "headline-xl": ["Hanken Grotesk"],
+                      "headline-lg": ["Hanken Grotesk"],
+                      "body-md": ["Hanken Grotesk"],
+                      "headline-lg-mobile": ["Hanken Grotesk"]
+              },
+              "fontSize": {
+                      "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                      "label-md": ["14px", {"lineHeight": "1.4", "letterSpacing": "0.01em", "fontWeight": "500"}],
+                      "headline-md": ["24px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                      "label-sm": ["12px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                      "headline-xl": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                      "headline-lg": ["32px", {"lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+                      "body-md": ["16px", {"lineHeight": "1.5", "fontWeight": "400"}],
+                      "headline-lg-mobile": ["28px", {"lineHeight": "1.2", "fontWeight": "600"}]
+              }
+            }
+          }
+        }
+    </script>
+</head>
+<body class="bg-background text-on-background antialiased selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<header class="bg-surface-white dark:bg-inverse-surface border-b border-border-subtle dark:border-outline w-full top-0 sticky z-50">
+<div class="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop h-20 max-w-container-max mx-auto">
+<a class="flex items-center gap-2" href="#">
+<img alt="Data ERP Systems Logo" class="h-10 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ADBb0uhJbhhac4t_LnkBNE3KAtsmytOYaEfKqEmUXM1zkcvuBkMeXBYGvKn4Znmqseq9COpKdgXBIaLKa5-K_7HFtObSIci_PwabTQKmgF5sF86EuIlsXnjV0RF-H6cNtcQ7zFCRC9kjqthF1UB3fNtGbN9TmRRlXiUV4xLN0rxzoDP8QrayZ-UvA39nEOliKpol9QIV2uGVF1lsPj1XZsSArgmJVqsabrcEDVDFgXvNyGBJpJzPSmhbTWgcbHAo"/>
+</a>
+<nav class="hidden md:flex gap-8 items-center">
+<a class="text-primary dark:text-primary-fixed border-b-2 border-primary pb-1 font-bold font-label-md text-label-md hover:text-primary-container dark:hover:text-primary-fixed transition-colors duration-200" href="#">Home</a>
+<a class="text-on-surface-variant dark:text-surface-variant font-medium font-label-md text-label-md hover:text-primary-container dark:hover:text-primary-fixed transition-colors duration-200" href="#">Services</a>
+<a class="text-on-surface-variant dark:text-surface-variant font-medium font-label-md text-label-md hover:text-primary-container dark:hover:text-primary-fixed transition-colors duration-200" href="#">Industries</a>
+<a class="text-on-surface-variant dark:text-surface-variant font-medium font-label-md text-label-md hover:text-primary-container dark:hover:text-primary-fixed transition-colors duration-200" href="#">About Us</a>
+<a class="text-on-surface-variant dark:text-surface-variant font-medium font-label-md text-label-md hover:text-primary-container dark:hover:text-primary-fixed transition-colors duration-200" href="#">Contact Us</a>
+</nav>
+<div class="hidden md:flex items-center gap-4">
+<button class="font-label-md text-label-md text-text-primary border border-border-subtle px-6 py-3 rounded hover:bg-surface-container-low transition-colors duration-200">Login</button>
+<button class="font-label-md text-label-md bg-primary-container text-white px-6 py-3 rounded hover:bg-primary transition-colors duration-200">Get Started</button>
+</div>
+<button class="md:hidden text-text-primary p-2">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="relative bg-surface-white pt-20 pb-32 overflow-hidden">
+<div class="absolute inset-0 z-0 opacity-5 bg-[radial-gradient(circle_at_top_right,_var(--tw-colors-primary-container),_transparent_40%)]"></div>
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div class="flex flex-col gap-6">
+<span class="font-label-md text-label-md text-primary tracking-widest uppercase">Data ERP Systems</span>
+<h1 class="font-headline-xl text-headline-xl md:font-headline-xl md:text-headline-xl text-text-primary">
+                        Solutions that are Tailor Engineered to Simplify, Automate and Streamline your Business Process.
+                    </h1>
+<p class="font-body-lg text-body-lg text-text-muted max-w-xl">
+                        DataERPsys automation and paperless process can save companies millions of dollars per year. Our insights on leveraging technology to drive exponential business outcomes is what sets us apart.
+                    </p>
+<div class="flex items-center gap-4 pt-4">
+<button class="bg-primary-container text-white font-label-md text-label-md px-8 py-4 rounded hover:bg-primary transition-colors shadow-sm">
+                            Our Services
+                        </button>
+</div>
+</div>
+<div class="relative flex justify-center items-center">
+<img alt="Business solutions illustration" class="w-full max-w-[500px] object-contain drop-shadow-xl z-10" src="https://lh3.googleusercontent.com/aida/ADBb0uiG_vnEhkiiS_gVXh29uuHYu8RnoI5VjOxf2g1VtrW1M4tufbswIHAMulXkDHiTBRfGnzSqrYq1VBzBr7KOA3MjAOhKsvhl6nmafosaawIKVpMXntPfDHaRs_mFOg2vj0ssXPNobNc-l1VupjO1wxj-x6GN0rLrCJKSNXMQlbA7-xZlfvB2QStHiLv5YYFNMZu1jqjlpBpIg3BEg46lR7cY6UWf-B_i2-4M43Qtq2f2ahtVfLYVkQ8VxkM"/>
+<div class="absolute w-[120%] h-[120%] bg-surface-container-low rounded-full -z-10 blur-3xl opacity-60"></div>
+</div>
+</div>
+</section>
+<!-- Stats Section -->
+<section class="py-16 bg-surface-container-low border-y border-border-subtle">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+<div class="flex flex-col items-center justify-center text-center p-6 bg-surface-white rounded border border-border-subtle shadow-sm hover:shadow-md transition-shadow">
+<span class="material-symbols-outlined text-primary-container text-4xl mb-3" style="font-variation-settings: 'FILL' 1;">groups</span>
+<h3 class="font-headline-lg text-headline-lg text-text-primary">36+</h3>
+<p class="font-label-md text-label-md text-text-muted mt-1">Happy Clients</p>
+</div>
+<div class="flex flex-col items-center justify-center text-center p-6 bg-surface-white rounded border border-border-subtle shadow-sm hover:shadow-md transition-shadow">
+<span class="material-symbols-outlined text-primary-container text-4xl mb-3" style="font-variation-settings: 'FILL' 1;">history</span>
+<h3 class="font-headline-lg text-headline-lg text-text-primary">5+</h3>
+<p class="font-label-md text-label-md text-text-muted mt-1">Years Of Experience</p>
+</div>
+<div class="flex flex-col items-center justify-center text-center p-6 bg-surface-white rounded border border-border-subtle shadow-sm hover:shadow-md transition-shadow">
+<span class="material-symbols-outlined text-primary-container text-4xl mb-3" style="font-variation-settings: 'FILL' 1;">assignment</span>
+<h3 class="font-headline-lg text-headline-lg text-text-primary">597+</h3>
+<p class="font-label-md text-label-md text-text-muted mt-1">Projects</p>
+</div>
+<div class="flex flex-col items-center justify-center text-center p-6 bg-surface-white rounded border border-border-subtle shadow-sm hover:shadow-md transition-shadow">
+<span class="material-symbols-outlined text-primary-container text-4xl mb-3" style="font-variation-settings: 'FILL' 1;">verified</span>
+<h3 class="font-headline-lg text-headline-lg text-text-primary">95%</h3>
+<p class="font-label-md text-label-md text-text-muted mt-1">Success Rate</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Section (Bento Grid) -->
+<section class="py-24 bg-surface-white">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="text-center mb-16">
+<span class="font-label-md text-label-md text-primary tracking-widest uppercase">Featured Services</span>
+<h2 class="font-headline-xl text-headline-xl text-text-primary mt-2">What We Offer</h2>
+<p class="font-body-lg text-body-lg text-text-muted max-w-2xl mx-auto mt-4">
+                        We accelerate product innovation, modernize aging applications, and productize best practices into new software IP.
+                    </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Large Card -->
+<div class="md:col-span-2 bg-surface-container-low rounded p-8 border border-border-subtle flex flex-col md:flex-row gap-8 items-center group hover:bg-surface-white hover:shadow-[0_4px_12px_rgba(10,8,59,0.05)] transition-all duration-300">
+<div class="flex-1">
+<div class="w-12 h-12 bg-primary/10 rounded flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-primary-container" style="font-variation-settings: 'FILL' 1;">developer_board</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-text-primary mb-3">ERP Solutions</h3>
+<p class="font-body-md text-body-md text-text-muted">
+                                We develop robust web &amp; mobile apps delivered using advanced development tools, ensuring seamless integration and scalability for your enterprise infrastructure.
+                            </p>
+</div>
+<div class="flex-1 w-full flex justify-center">
+<img alt="Mobile app development" class="max-w-[200px] object-contain group-hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida/ADBb0ugMnDRZxEv0EnG5ZqPLVoZQ-wfPD7k4T907NSQt8oJConjNLAsEVnY7G_hZnnBZ6r3VzXPU0BJX3jIgZ_n7MhWvqECW6ioiRmgcEcooBJOi6y__9348ApXi5QepEQgIZD6tAKpoqygUFVicQSvYcZO7W98NuBgiMZp4-whzDPcfnmHH06ziXuYjav_S1s4P2BqLOVzGzhR6ISCHbjvLqzoqqNtcMr76f15dSS_aJcOFMrDVf6Ca9EeltqTr"/>
+</div>
+</div>
+<!-- Small Cards -->
+<div class="bg-surface-white rounded p-8 border border-border-subtle hover:shadow-[0_4px_12px_rgba(10,8,59,0.05)] transition-all duration-300 flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 bg-primary/10 rounded flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-primary-container" style="font-variation-settings: 'FILL' 1;">conversation</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-text-primary mb-3">IT Consulting</h3>
+<p class="font-body-md text-body-md text-text-muted">
+                                Expert web application development and system architecture design services tailored to your specific technical requirements.
+                            </p>
+</div>
+</div>
+<div class="bg-surface-white rounded p-8 border border-border-subtle hover:shadow-[0_4px_12px_rgba(10,8,59,0.05)] transition-all duration-300 flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 bg-primary/10 rounded flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-primary-container" style="font-variation-settings: 'FILL' 1;">factory</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-text-primary mb-3">Manufacturing</h3>
+<p class="font-body-md text-body-md text-text-muted">
+                                Solutions ensuring operational processes in your business run smoothly and enable users to conduct operations efficiently.
+                            </p>
+</div>
+</div>
+<div class="md:col-span-2 bg-text-primary text-white rounded p-8 relative overflow-hidden flex items-center">
+<div class="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_bottom_right,_var(--tw-colors-primary-fixed),_transparent_60%)]"></div>
+<div class="relative z-10 flex flex-col md:flex-row gap-8 items-center w-full">
+<div class="flex-1">
+<div class="w-12 h-12 bg-white/10 rounded flex items-center justify-center mb-6 backdrop-blur-sm">
+<span class="material-symbols-outlined text-primary-fixed" style="font-variation-settings: 'FILL' 1;">badge</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-white mb-3">Staffing Services</h3>
+<p class="font-body-md text-body-md text-primary-fixed-dim">
+                                    Our consulting includes a broad range of activities, providing quality talent and specialized teams for your specific developmental projects and long-term goals.
+                                </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Partnerships -->
+<section class="py-12 bg-surface-container border-y border-border-subtle">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center">
+<span class="font-label-md text-label-md text-text-muted uppercase tracking-wider mb-6 block">SAP Partnership and Certifications</span>
+<div class="flex justify-center items-center opacity-80 hover:opacity-100 transition-opacity grayscale hover:grayscale-0">
+<img alt="SAP Certification Logo" class="h-24 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ADBb0uj3pyXXDRbYAZ36ZbmX4TYC0IZkJ1jUuJwiWwxjKDIIUjHxUYvZFR8ukyRukzDtBy4NMjO3AWvRy_yYEoqWjprtJA39rnIYafY_l26ROeIY31Lfp1en8Wl3ef4XLj6cyO6ur0prdG4USTcpfgE2fSwgOWg2wgBy9gDZmKMET9pXidXrzE7rR6FccHk_xEDe0VjbtdAJ4KDrjl9dyvCg8MdvzvanmQ6TjRFhVLsgK-oE2FnQqDAQjGgXrzE"/>
+</div>
+</div>
+</section>
+<!-- Testimonials -->
+<section class="py-24 bg-surface-white">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="text-center mb-16">
+<span class="font-label-md text-label-md text-primary tracking-widest uppercase">Client's Testimonial</span>
+<h2 class="font-headline-lg text-headline-lg text-text-primary mt-2">Real Values, Better Results</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Testimonial 1 -->
+<div class="bg-surface-white border border-border-subtle rounded p-8 relative">
+<span class="material-symbols-outlined absolute top-6 right-6 text-surface-container-high text-6xl" style="font-variation-settings: 'FILL' 1;">format_quote</span>
+<p class="font-body-md text-body-md text-text-muted relative z-10 mb-8 italic">
+                            "As our original site demanded a lot of manual effort, we asked DES to make a more user-friendly ERP Application. DataERPsys understood and implemented everything I requested. They never pushed back... we're very satisfied."
+                        </p>
+<div class="flex items-center gap-4 border-t border-border-subtle pt-6">
+<div class="w-12 h-12 bg-surface-container-highest rounded-full flex items-center justify-center text-primary font-bold">
+                                J
+                            </div>
+<div>
+<h4 class="font-label-md text-label-md text-text-primary">Jessica</h4>
+<span class="font-label-sm text-label-sm text-text-muted">Consultant</span>
+</div>
+</div>
+</div>
+<!-- Testimonial 2 -->
+<div class="bg-surface-white border border-border-subtle rounded p-8 relative shadow-[0_4px_12px_rgba(10,8,59,0.05)] transform md:-translate-y-4">
+<span class="material-symbols-outlined absolute top-6 right-6 text-surface-container-high text-6xl" style="font-variation-settings: 'FILL' 1;">format_quote</span>
+<p class="font-body-md text-body-md text-text-muted relative z-10 mb-8 italic">
+                            "DataERPsys consultants analyzed our workloads, documentation, and the existing infrastructure and provided us with a clear project roadmap. They delivered demos every other week... We have already engaged DataERPsys in supporting the solution."
+                        </p>
+<div class="flex items-center gap-4 border-t border-border-subtle pt-6">
+<div class="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center font-bold">
+                                J
+                            </div>
+<div>
+<h4 class="font-label-md text-label-md text-text-primary">Joseph</h4>
+<span class="font-label-sm text-label-sm text-text-muted">CEO</span>
+</div>
+</div>
+</div>
+<!-- Testimonial 3 -->
+<div class="bg-surface-white border border-border-subtle rounded p-8 relative">
+<span class="material-symbols-outlined absolute top-6 right-6 text-surface-container-high text-6xl" style="font-variation-settings: 'FILL' 1;">format_quote</span>
+<p class="font-body-md text-body-md text-text-muted relative z-10 mb-8 italic">
+                            "DataERPsys has provided quality talent for our company needs. The customer service is also top-notch, and they really understand how to accommodate the needs of very specific developmental projects. I am satisfied with their services."
+                        </p>
+<div class="flex items-center gap-4 border-t border-border-subtle pt-6">
+<div class="w-12 h-12 bg-surface-container-highest rounded-full flex items-center justify-center text-primary font-bold">
+                                A
+                            </div>
+<div>
+<h4 class="font-label-md text-label-md text-text-primary">Aaron Na</h4>
+<span class="font-label-sm text-label-sm text-text-muted">Recruiter</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-white dark:bg-inverse-surface border-t border-border-subtle dark:border-outline full-width bottom">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-margin-mobile md:px-margin-desktop py-12 max-w-container-max mx-auto">
+<div class="col-span-1 md:col-span-1 flex flex-col gap-4">
+<span class="font-headline-md text-headline-md font-bold text-text-primary dark:text-primary-fixed-dim">Data ERP Systems</span>
+<p class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant">© 2024 Data ERP Systems. Empowering enterprise intelligence.</p>
+</div>
+<div class="flex flex-col gap-3">
+<span class="font-label-md text-label-md font-bold text-text-primary mb-2">Services</span>
+<a class="font-label-sm text-label-sm text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed underline transition-all" href="#">IT Consulting</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed underline transition-all" href="#">ERP Solutions</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed underline transition-all" href="#">Staffing Services</a>
+</div>
+<div class="flex flex-col gap-3">
+<span class="font-label-md text-label-md font-bold text-text-primary mb-2">Industries</span>
+<a class="font-label-sm text-label-sm text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed underline transition-all" href="#">Manufacturing</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed underline transition-all" href="#">Healthcare</a>
+</div>
+<div class="flex flex-col gap-3">
+<span class="font-label-md text-label-md font-bold text-text-primary mb-2">Legal</span>
+<a class="font-label-sm text-label-sm text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed underline transition-all" href="#">Privacy Policy</a>
+<a class="font-label-sm text-label-sm text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed underline transition-all" href="#">Terms of Use</a>
+</div>
+</div>
+</footer>
+</body></html>

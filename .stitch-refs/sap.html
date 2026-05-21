@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>SAP Solutions - Data ERP Systems</title>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Config -->
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-secondary-fixed-variant": "#424274",
+                        "on-secondary-container": "#4f4f82",
+                        "surface-container": "#eceef1",
+                        "outline": "#747686",
+                        "primary-fixed-dim": "#b5c4ff",
+                        "secondary-container": "#c5c4ff",
+                        "on-tertiary": "#ffffff",
+                        "on-background": "#191c1e",
+                        "tertiary-fixed-dim": "#b7c8e1",
+                        "surface-white": "#FFFFFF",
+                        "inverse-surface": "#2d3133",
+                        "surface-variant": "#e0e3e6",
+                        "surface-bright": "#f7f9fc",
+                        "on-surface-variant": "#434654",
+                        "error-container": "#ffdad6",
+                        "text-primary": "#0A083B",
+                        "primary": "#003baa",
+                        "primary-container": "#1c52d2",
+                        "on-tertiary-fixed": "#0b1c30",
+                        "border-subtle": "#E2E8F0",
+                        "surface": "#f7f9fc",
+                        "inverse-on-surface": "#eff1f4",
+                        "on-primary": "#ffffff",
+                        "surface-dim": "#d8dadd",
+                        "on-error": "#ffffff",
+                        "error": "#EF4444",
+                        "text-muted": "#475569",
+                        "success": "#10B981",
+                        "on-tertiary-fixed-variant": "#38485d",
+                        "on-surface": "#191c1e",
+                        "tertiary-container": "#4e5e74",
+                        "tertiary-fixed": "#d3e4fe",
+                        "secondary-fixed": "#e2dfff",
+                        "surface-container-lowest": "#ffffff",
+                        "primary-fixed": "#dce1ff",
+                        "background": "#f7f9fc",
+                        "tertiary": "#37465c",
+                        "on-tertiary-container": "#c7d7f2",
+                        "surface-container-high": "#e6e8eb",
+                        "surface-tint": "#1e53d3",
+                        "secondary": "#59598d",
+                        "on-secondary-fixed": "#161545",
+                        "on-primary-fixed": "#00164d",
+                        "inverse-primary": "#b5c4ff",
+                        "surface-container-low": "#f2f4f7",
+                        "secondary-fixed-dim": "#c2c1fc",
+                        "on-secondary": "#ffffff",
+                        "on-error-container": "#93000a",
+                        "outline-variant": "#c3c5d7",
+                        "surface-container-highest": "#e0e3e6",
+                        "on-primary-container": "#cbd5ff",
+                        "on-primary-fixed-variant": "#003cad"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "margin-mobile": "16px",
+                        "gutter": "24px",
+                        "container-max": "1280px",
+                        "base": "8px",
+                        "margin-desktop": "48px"
+                    },
+                    "fontFamily": {
+                        "label-sm": ["Hanken Grotesk"],
+                        "headline-xl": ["Hanken Grotesk"],
+                        "body-lg": ["Hanken Grotesk"],
+                        "headline-lg-mobile": ["Hanken Grotesk"],
+                        "headline-lg": ["Hanken Grotesk"],
+                        "body-md": ["Hanken Grotesk"],
+                        "label-md": ["Hanken Grotesk"],
+                        "headline-md": ["Hanken Grotesk"]
+                    },
+                    "fontSize": {
+                        "label-sm": ["12px", { "lineHeight": "1.2", "fontWeight": "600" }],
+                        "headline-xl": ["48px", { "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "body-lg": ["18px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "headline-lg-mobile": ["28px", { "lineHeight": "1.2", "fontWeight": "600" }],
+                        "headline-lg": ["32px", { "lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+                        "body-md": ["16px", { "lineHeight": "1.5", "fontWeight": "400" }],
+                        "label-md": ["14px", { "lineHeight": "1.4", "letterSpacing": "0.01em", "fontWeight": "500" }],
+                        "headline-md": ["24px", { "lineHeight": "1.3", "fontWeight": "600" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md antialiased selection:bg-primary-container selection:text-on-primary">
+<!-- TopNavBar Shared Component -->
+<nav class="bg-surface-white sticky top-0 w-full z-50 border-b border-border-subtle transition-all duration-200 ease-in-out">
+<div class="flex justify-between items-center h-16 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<!-- Brand Logo -->
+<div class="text-headline-md font-headline-md text-primary tracking-tight">
+                Data ERP Systems
+            </div>
+<!-- Navigation Links (Desktop) -->
+<div class="hidden md:flex space-x-8 items-center h-full">
+<a class="text-label-md font-label-md text-text-muted hover:text-primary transition-colors flex items-center h-full" href="#">Services</a>
+<a class="text-label-md font-label-md text-text-muted hover:text-primary transition-colors flex items-center h-full" href="#">Industries</a>
+<a class="text-label-md font-label-md text-primary font-bold border-b-2 border-primary pb-1 flex items-center h-full mt-1" href="#">Solutions</a>
+<a class="text-label-md font-label-md text-text-muted hover:text-primary transition-colors flex items-center h-full" href="#">Resources</a>
+<a class="text-label-md font-label-md text-text-muted hover:text-primary transition-colors flex items-center h-full" href="#">About Us</a>
+</div>
+<!-- Actions -->
+<div class="hidden md:flex items-center space-x-4">
+<button class="text-label-sm font-label-sm text-text-primary border border-border-subtle px-3 py-2 rounded hover:bg-surface-container transition-colors">Login</button>
+<button class="text-label-sm font-label-sm bg-primary-container text-on-primary px-3 py-2 rounded hover:opacity-90 transition-opacity">Get a Demo</button>
+</div>
+<!-- Mobile Menu Toggle -->
+<button class="md:hidden text-text-primary p-2">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</nav>
+<main class="w-full">
+<!-- Hero Section: Asymmetric Layout -->
+<section class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-16 md:py-24">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<div class="lg:col-span-6 space-y-6">
+<div class="inline-flex items-center px-3 py-1 rounded-full bg-primary-fixed text-on-primary-fixed text-label-sm font-label-sm">
+<span class="w-2 h-2 rounded-full bg-primary mr-2"></span> SAP Certified Partner
+                    </div>
+<h1 class="font-headline-xl text-headline-xl text-text-primary">
+                        Transform Your Enterprise with Organized Intelligence.
+                    </h1>
+<p class="font-body-lg text-body-lg text-text-muted max-w-lg">
+                        Simplify, automate, and streamline your complex business processes. Our tailored SAP Solutions—from S/4 HANA implementations to ECC migrations—ensure your data infrastructure is as reliable as the business it drives.
+                    </p>
+<div class="flex flex-wrap gap-4 pt-4">
+<button class="bg-primary-container text-on-primary font-label-md text-label-md px-6 py-3 rounded shadow-sm hover:opacity-90 transition-opacity flex items-center gap-2">
+                            Explore S/4 HANA <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+<button class="border border-border-subtle bg-surface-white text-text-primary font-label-md text-label-md px-6 py-3 rounded hover:bg-surface-container transition-colors">
+                            Request Assessment
+                        </button>
+</div>
+</div>
+<div class="lg:col-span-6 relative mt-12 lg:mt-0">
+<div class="absolute inset-0 bg-primary-fixed-dim rounded-2xl transform translate-x-4 translate-y-4 -z-10"></div>
+<div class="bg-surface-white border border-border-subtle p-4 rounded-2xl shadow-[0_4px_12px_rgba(10,8,59,0.05)] overflow-hidden">
+<img alt="SAP ECC Migration Diagram" class="w-full h-auto object-cover rounded-xl" src="https://lh3.googleusercontent.com/aida/ADBb0uj3pyXXDRbYAZ36ZbmX4TYC0IZkJ1jUuJwiWwxjKDIIUjHxUYvZFR8ukyRukzDtBy4NMjO3AWvRy_yYEoqWjprtJA39rnIYafY_l26ROeIY31Lfp1en8Wl3ef4XLj6cyO6ur0prdG4USTcpfgE2fSwgOWg2wgBy9gDZmKMET9pXidXrzE7rR6FccHk_xEDe0VjbtdAJ4KDrjl9dyvCg8MdvzvanmQ6TjRFhVLsgK-oE2FnQqDAQjGgXrzE"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Solutions Bento Grid Section -->
+<section class="bg-surface-container-lowest py-20 border-t border-border-subtle">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="mb-12 text-center max-w-2xl mx-auto">
+<h2 class="font-headline-lg text-headline-lg text-text-primary mb-4">Comprehensive SAP Capabilities</h2>
+<p class="font-body-md text-body-md text-text-muted">Architectural precision meets operational excellence. Discover our core solution pillars designed for modern B2B environments.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[minmax(180px,_auto)]">
+<!-- Card 1: S/4 HANA (Large Span) -->
+<div class="md:col-span-2 md:row-span-2 relative group overflow-hidden rounded-xl border border-border-subtle bg-surface-white">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-105" data-alt="A sleek, modern server room environment with glowing blue and white LED lights illuminating endless rows of data racks. The aesthetic is clean, high-tech, and corporate modern, reflecting organized intelligence and enterprise data management. A subtle light mode overlay creates a crisp, professional mood." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA9ZDRhyj8aEjDd5n_34KHGQw_nllRM0FZbdoqgBfJSzxRYfudzEYz2CJh2RaWAFjgti766QLH2KXA4e3Exm93iukqXi-OpLNBxreBcC5fhz_KV1bngLj2OE_29m1SUAKEV0neRrSeyP8cp6whpLXhO8Sl6FQ682itu3OOSqOhQIjZP-3b0Qqh1AlVnpEK-EQrP6GGYz8-__zr-_GExNE59FcFo5Vw4U20dSXfLnjFeyVhxTlC-VhWnNItzWbyb6BIz2ER09h-6iB7T');">
+</div>
+<div class="absolute inset-0 bg-gradient-to-r from-surface-white via-surface-white/90 to-transparent"></div>
+<div class="relative h-full p-8 flex flex-col justify-between w-2/3">
+<div>
+<span class="material-symbols-outlined text-primary text-[32px] mb-4">hub</span>
+<h3 class="font-headline-md text-headline-md text-text-primary mb-2">SAP S/4 HANA</h3>
+<p class="font-body-md text-body-md text-text-muted mb-6">
+                                    Unlock real-time analytics and intelligent automation. We design, deploy, and manage your transition to the next-generation intelligent enterprise suite, ensuring minimal disruption and maximum ROI.
+                                </p>
+</div>
+<button class="self-start text-primary font-label-md text-label-md flex items-center gap-1 hover:gap-2 transition-all">
+                                Learn More <span class="material-symbols-outlined text-[16px]">arrow_right_alt</span>
+</button>
+</div>
+</div>
+<!-- Card 2: ECC Migration -->
+<div class="md:col-span-1 md:row-span-1 rounded-xl border border-border-subtle bg-surface-white p-6 hover:shadow-[0_4px_12px_rgba(10,8,59,0.05)] transition-shadow">
+<span class="material-symbols-outlined text-secondary text-[28px] mb-3">move_up</span>
+<h3 class="font-label-sm text-label-sm text-text-primary uppercase tracking-wider mb-2">System Transition</h3>
+<h4 class="font-headline-lg-mobile text-headline-lg-mobile text-text-primary mb-2">ECC Migration</h4>
+<p class="font-body-md text-body-md text-text-muted text-sm">
+                            Risk-mitigated pathways from legacy SAP ECC environments to modern cloud or hybrid infrastructures.
+                        </p>
+</div>
+<!-- Card 3: Custom Add-ons -->
+<div class="md:col-span-1 md:row-span-1 rounded-xl border border-border-subtle bg-primary p-6 text-on-primary">
+<span class="material-symbols-outlined text-primary-fixed text-[28px] mb-3">extension</span>
+<h3 class="font-label-sm text-label-sm text-primary-fixed uppercase tracking-wider mb-2">Tailored Logic</h3>
+<h4 class="font-headline-lg-mobile text-headline-lg-mobile text-on-primary mb-2">Custom Add-ons</h4>
+<p class="font-body-md text-body-md text-on-primary-container text-sm">
+                            Bridge the gap between standard SAP functionality and your unique B2B operational requirements with precise engineering.
+                        </p>
+</div>
+<!-- Card 4: Metrics/Stats -->
+<div class="md:col-span-3 rounded-xl border border-border-subtle bg-surface-bright p-8 flex flex-col md:flex-row items-center justify-around gap-8">
+<div class="text-center">
+<div class="font-headline-xl text-headline-xl text-primary mb-1">99.9%</div>
+<div class="font-label-sm text-label-sm text-text-muted uppercase tracking-wider">Uptime SLA</div>
+</div>
+<div class="hidden md:block w-px h-16 bg-border-subtle"></div>
+<div class="text-center">
+<div class="font-headline-xl text-headline-xl text-primary mb-1">40%</div>
+<div class="font-label-sm text-label-sm text-text-muted uppercase tracking-wider">Process Automation</div>
+</div>
+<div class="hidden md:block w-px h-16 bg-border-subtle"></div>
+<div class="text-center">
+<div class="font-headline-xl text-headline-xl text-primary mb-1">500+</div>
+<div class="font-label-sm text-label-sm text-text-muted uppercase tracking-wider">Successful Migrations</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer Shared Component -->
+<footer class="bg-on-background w-full pt-16 pb-8 border-t border-outline">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
+<!-- Brand Column -->
+<div class="col-span-1 md:col-span-1 mb-8 md:mb-0">
+<div class="text-headline-md font-headline-md text-surface-white mb-4">
+                    Data ERP Systems
+                </div>
+<p class="font-body-md text-body-md text-surface-variant max-w-xs">
+                    Built for Organized Intelligence. Delivering state-of-the-art IT services and SAP solutions for modern B2B enterprises.
+                </p>
+</div>
+<!-- Links Column 1 -->
+<div class="col-span-1">
+<h4 class="font-label-sm text-label-sm text-surface-white uppercase tracking-wider mb-4 opacity-70">Company</h4>
+<ul class="space-y-3">
+<li><a class="font-body-md text-body-md text-surface-variant hover:text-surface-white hover:opacity-80 transition-all duration-200 cursor-pointer" href="#">About Us</a></li>
+<li><a class="font-body-md text-body-md text-surface-variant hover:text-surface-white hover:opacity-80 transition-all duration-200 cursor-pointer" href="#">Careers</a></li>
+<li><a class="font-body-md text-body-md text-surface-variant hover:text-surface-white hover:opacity-80 transition-all duration-200 cursor-pointer" href="#">Contact Us</a></li>
+</ul>
+</div>
+<!-- Links Column 2 -->
+<div class="col-span-1">
+<h4 class="font-label-sm text-label-sm text-surface-white uppercase tracking-wider mb-4 opacity-70">Expertise</h4>
+<ul class="space-y-3">
+<li><a class="font-body-md text-body-md text-surface-variant hover:text-surface-white hover:opacity-80 transition-all duration-200 cursor-pointer" href="#">Services</a></li>
+<li><a class="font-body-md text-body-md text-surface-variant hover:text-surface-white hover:opacity-80 transition-all duration-200 cursor-pointer" href="#">Industries</a></li>
+<li><a class="font-body-md text-body-md text-primary-fixed underline hover:opacity-80 transition-all duration-200 cursor-pointer" href="#">Solutions</a></li>
+</ul>
+</div>
+<!-- Links Column 3 -->
+<div class="col-span-1">
+<h4 class="font-label-sm text-label-sm text-surface-white uppercase tracking-wider mb-4 opacity-70">Legal</h4>
+<ul class="space-y-3">
+<li><a class="font-body-md text-body-md text-surface-variant hover:text-surface-white hover:opacity-80 transition-all duration-200 cursor-pointer" href="#">Privacy Policy</a></li>
+<li><a class="font-body-md text-body-md text-surface-variant hover:text-surface-white hover:opacity-80 transition-all duration-200 cursor-pointer" href="#">Terms of Service</a></li>
+<li><a class="font-body-md text-body-md text-surface-variant hover:text-surface-white hover:opacity-80 transition-all duration-200 cursor-pointer" href="#">Legal</a></li>
+<li><a class="font-body-md text-body-md text-surface-variant hover:text-surface-white hover:opacity-80 transition-all duration-200 cursor-pointer" href="#">Cookie Policy</a></li>
+</ul>
+</div>
+</div>
+<!-- Copyright -->
+<div class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto mt-12 pt-8 border-t border-tertiary">
+<p class="font-body-md text-body-md text-surface-variant text-sm">
+                © 2024 Data ERP Systems. All rights reserved. Built for Organized Intelligence.
+            </p>
+</div>
+</footer>
+</body></html>

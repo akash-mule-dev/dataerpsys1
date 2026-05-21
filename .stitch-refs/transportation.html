@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Transportation &amp; Logistics Solutions - Data ERP Systems</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "text-muted": "#475569",
+                        "on-secondary-container": "#4f4f82",
+                        "outline": "#747686",
+                        "on-error-container": "#93000a",
+                        "outline-variant": "#c3c5d7",
+                        "error": "#EF4444",
+                        "primary": "#003baa",
+                        "on-primary-container": "#cbd5ff",
+                        "secondary": "#59598d",
+                        "surface": "#f7f9fc",
+                        "on-primary": "#ffffff",
+                        "inverse-on-surface": "#eff1f4",
+                        "surface-container-highest": "#e0e3e6",
+                        "surface-container-high": "#e6e8eb",
+                        "success": "#10B981",
+                        "surface-variant": "#e0e3e6",
+                        "surface-container-lowest": "#ffffff",
+                        "secondary-container": "#c5c4ff",
+                        "on-tertiary-fixed": "#0b1c30",
+                        "surface-bright": "#f7f9fc",
+                        "on-primary-fixed": "#00164d",
+                        "on-background": "#191c1e",
+                        "surface-white": "#FFFFFF",
+                        "surface-tint": "#1e53d3",
+                        "on-secondary-fixed": "#161545",
+                        "on-tertiary-container": "#c7d7f2",
+                        "on-surface": "#191c1e",
+                        "primary-fixed-dim": "#b5c4ff",
+                        "inverse-primary": "#b5c4ff",
+                        "text-primary": "#0A083B",
+                        "on-secondary-fixed-variant": "#424274",
+                        "primary-container": "#1c52d2",
+                        "surface-container-low": "#f2f4f7",
+                        "tertiary-fixed-dim": "#b7c8e1",
+                        "secondary-fixed": "#e2dfff",
+                        "on-surface-variant": "#434654",
+                        "tertiary": "#37465c",
+                        "tertiary-fixed": "#d3e4fe",
+                        "on-primary-fixed-variant": "#003cad",
+                        "on-secondary": "#ffffff",
+                        "on-error": "#ffffff",
+                        "on-tertiary-fixed-variant": "#38485d",
+                        "error-container": "#ffdad6",
+                        "surface-dim": "#d8dadd",
+                        "inverse-surface": "#2d3133",
+                        "background": "#f7f9fc",
+                        "tertiary-container": "#4e5e74",
+                        "secondary-fixed-dim": "#c2c1fc",
+                        "border-subtle": "#E2E8F0",
+                        "primary-fixed": "#dce1ff",
+                        "on-tertiary": "#ffffff",
+                        "surface-container": "#eceef1"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "margin-mobile": "16px",
+                        "gutter": "24px",
+                        "margin-desktop": "48px",
+                        "base": "8px",
+                        "container-max": "1280px"
+                    },
+                    "fontFamily": {
+                        "body-md": ["Hanken Grotesk"],
+                        "body-lg": ["Hanken Grotesk"],
+                        "headline-md": ["Hanken Grotesk"],
+                        "headline-xl": ["Hanken Grotesk"],
+                        "label-sm": ["Hanken Grotesk"],
+                        "headline-lg": ["Hanken Grotesk"],
+                        "label-md": ["Hanken Grotesk"],
+                        "headline-lg-mobile": ["Hanken Grotesk"]
+                    },
+                    "fontSize": {
+                        "body-md": ["16px", { "lineHeight": "1.5", "fontWeight": "400" }],
+                        "body-lg": ["18px", { "lineHeight": "1.6", "fontWeight": "400" }],
+                        "headline-md": ["24px", { "lineHeight": "1.3", "fontWeight": "600" }],
+                        "headline-xl": ["48px", { "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "label-sm": ["12px", { "lineHeight": "1.2", "fontWeight": "600" }],
+                        "headline-lg": ["32px", { "lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+                        "label-md": ["14px", { "lineHeight": "1.4", "letterSpacing": "0.01em", "fontWeight": "500" }],
+                        "headline-lg-mobile": ["28px", { "lineHeight": "1.2", "fontWeight": "600" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body { font-family: 'Hanken Grotesk', sans-serif; }
+    </style>
+</head>
+<body class="bg-background text-on-background min-h-screen flex flex-col">
+<!-- TopNavBar -->
+<nav class="bg-surface-white sticky top-0 w-full border-b border-border-subtle z-50">
+<div class="flex justify-between items-center h-16 px-margin-desktop max-w-container-max mx-auto">
+<div class="flex items-center gap-gutter">
+<a class="text-headline-md font-headline-md text-primary tracking-tight" href="#">Data ERP Systems</a>
+<div class="hidden md:flex gap-6 ml-8">
+<a class="text-text-muted hover:text-primary transition-colors text-label-md font-label-md" href="#">Services</a>
+<a class="text-primary font-bold border-b-2 border-primary pb-1 text-label-md font-label-md" href="#">Industries</a>
+<a class="text-text-muted hover:text-primary transition-colors text-label-md font-label-md" href="#">Solutions</a>
+<a class="text-text-muted hover:text-primary transition-colors text-label-md font-label-md" href="#">Resources</a>
+<a class="text-text-muted hover:text-primary transition-colors text-label-md font-label-md" href="#">About Us</a>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<button class="hidden md:block text-text-primary border border-border-subtle rounded px-6 py-3 text-label-sm font-label-sm hover:bg-surface-container-low transition-colors">Login</button>
+<button class="bg-primary-container text-surface-white rounded px-6 py-3 text-label-sm font-label-sm hover:opacity-90 transition-opacity">Get a Demo</button>
+</div>
+</div>
+</nav>
+<main class="flex-grow">
+<!-- Hero Section -->
+<section class="pt-24 pb-16 px-margin-desktop max-w-container-max mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+<div class="space-y-6">
+<div class="inline-flex items-center gap-2 px-3 py-1 bg-primary-fixed rounded-full text-primary font-label-sm text-label-sm">
+<span class="material-symbols-outlined" style="font-size: 16px;">local_shipping</span>
+                    Transportation &amp; Logistics
+                </div>
+<h1 class="text-headline-xl font-headline-xl text-text-primary">Optimizing Global Supply Chains with Intelligent Mobility</h1>
+<p class="text-body-lg font-body-lg text-text-muted max-w-xl">
+                    Modernize your fleet, optimize routing, and track assets in real-time. Our advanced ERP solutions deliver unparalleled visibility and efficiency for complex delivery networks.
+                </p>
+<div class="flex gap-4 pt-4">
+<button class="bg-primary-container text-surface-white rounded px-6 py-3 text-label-sm font-label-sm hover:opacity-90 transition-opacity">Explore Solutions</button>
+<button class="text-text-primary border border-border-subtle rounded px-6 py-3 text-label-sm font-label-sm hover:bg-surface-container-low transition-colors">Talk to an Expert</button>
+</div>
+</div>
+<div class="relative h-[400px] rounded-lg overflow-hidden border border-border-subtle shadow-sm">
+<img alt="Aerial view of a busy shipping port with colorful containers and cranes, representing global logistics and supply chain optimization." class="w-full h-full object-cover" data-alt="A high-angle, cinematic shot of a bustling international shipping port at dawn. Rows of neatly stacked, colorful cargo containers dominate the foreground, leading the eye toward massive industrial cranes and a calm, deep blue ocean. The lighting is soft and golden, highlighting the sheer scale and organized complexity of global logistics. The aesthetic is modern, clean, and highly structured, fitting a premium corporate ERP system interface." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB9M3IE3PrB_JcY152TcSdFJxU8urooTQ2u6IxA2v-xhs6dMdqZmrLTuYage6pIS_BIwtOCDeCd9MUC_e-zNOtnsICV63J5KwS1ftr08kYYoAAfKuWXlhPJE3FYIiabl3kIEWOH7MdOsHdkZ667qmqZmEFCFl2LXi9vTeoEQdgP-KFWZLaNTPKAz9v3Vbdrk451fEIxA9VGcHaNrorvNgc_2iXAuV8_X-hQ9Jz1phQhLv4VlBy5E-wX2w6nAfAS0LGYnJY5wId1m7XA"/>
+</div>
+</section>
+<!-- Core Capabilities Bento Grid -->
+<section class="py-24 bg-surface-container-lowest">
+<div class="px-margin-desktop max-w-container-max mx-auto">
+<div class="mb-12 text-center max-w-2xl mx-auto">
+<h2 class="text-headline-lg font-headline-lg text-text-primary mb-4">Core Capabilities</h2>
+<p class="text-body-md font-body-md text-text-muted">Transforming logistical friction into operational flow with data-driven precision.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Feature 1 -->
+<div class="bg-surface-white border border-border-subtle rounded-lg p-8 col-span-1 md:col-span-2 hover:shadow-lg transition-shadow duration-300">
+<div class="h-12 w-12 bg-primary-fixed rounded-lg flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-primary text-2xl">route</span>
+</div>
+<h3 class="text-headline-md font-headline-md text-text-primary mb-3">Dynamic Route Optimization</h3>
+<p class="text-body-md font-body-md text-text-muted max-w-lg">
+                            Leverage AI to calculate the most efficient paths in real-time, considering traffic, weather, and delivery windows. Reduce fuel consumption and improve on-time delivery rates.
+                        </p>
+</div>
+<!-- Feature 2 -->
+<div class="bg-surface-white border border-border-subtle rounded-lg p-8 hover:shadow-lg transition-shadow duration-300">
+<div class="h-12 w-12 bg-tertiary-fixed rounded-lg flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-tertiary text-2xl">directions_car</span>
+</div>
+<h3 class="text-headline-md font-headline-md text-text-primary mb-3">Fleet Modernization</h3>
+<p class="text-body-md font-body-md text-text-muted">
+                            Manage vehicle lifecycles, predict maintenance needs, and monitor fuel efficiency across your entire fleet from a single dashboard.
+                        </p>
+</div>
+<!-- Feature 3 -->
+<div class="bg-surface-white border border-border-subtle rounded-lg p-8 hover:shadow-lg transition-shadow duration-300">
+<div class="h-12 w-12 bg-secondary-fixed rounded-lg flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-secondary text-2xl">radar</span>
+</div>
+<h3 class="text-headline-md font-headline-md text-text-primary mb-3">Real-Time Tracking</h3>
+<p class="text-body-md font-body-md text-text-muted">
+                            End-to-end visibility for every shipment. Provide customers with precise ETAs and proactively manage exceptions before they escalate.
+                        </p>
+</div>
+<!-- Feature 4 -->
+<div class="bg-surface-white border border-border-subtle rounded-lg p-8 col-span-1 md:col-span-2 hover:shadow-lg transition-shadow duration-300 flex flex-col md:flex-row gap-8 items-center">
+<div class="flex-1">
+<div class="h-12 w-12 bg-surface-container-high rounded-lg flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-text-primary text-2xl">hub</span>
+</div>
+<h3 class="text-headline-md font-headline-md text-text-primary mb-3">Network Efficiency</h3>
+<p class="text-body-md font-body-md text-text-muted">
+                                Balance loads across hubs, optimize warehouse utilization, and streamline cross-docking operations to ensure seamless goods movement.
+                            </p>
+</div>
+<div class="w-full md:w-1/2 h-48 bg-surface-container-low rounded border border-border-subtle relative overflow-hidden">
+<img alt="Abstract visualization of a global network map with glowing nodes." class="w-full h-full object-cover opacity-80" data-alt="A stylized, abstract digital map of the world rendered in a minimalist corporate aesthetic. Glowing blue and cyan nodes are connected by sleek, glowing lines, representing global logistics networks and data flow. The background is a clean, muted white and light gray, providing high contrast for the digital connections. The visual style is highly technical, precise, and conveys a sense of intelligent, organized global mobility." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBczZjxuGhOIMaqYjyVvuLSXjiH72-vbQj3A0INWJnZRSDvpBv0wcUOo12GcFEwL2Uo73BQ-TsphxjQTVmlyW6_sfXI8s5mMRMYy6BrmKB0z4bbsbscSeMykNQDFANdyPq8KSiJ-GW9_X7N-DkO5xgF1SkWbsMCncpq_HLVsXg4QDxxpuM7_jZEp3G4b3a9F-ItUzxrckhc0DTz6qtbQzWSojpo6GzL8dKXSNnCFPmTrkBG1EZa3lD-Cc4T2C0nRRZSKztp9aJow73m"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Metrics/Value Section -->
+<section class="py-20 border-t border-border-subtle">
+<div class="px-margin-desktop max-w-container-max mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center divide-y md:divide-y-0 md:divide-x divide-border-subtle">
+<div class="p-4">
+<div class="text-headline-xl font-headline-xl text-primary mb-2">24%</div>
+<div class="text-label-md font-label-md text-text-muted">Reduction in Fuel Costs</div>
+</div>
+<div class="p-4">
+<div class="text-headline-xl font-headline-xl text-primary mb-2">99.8%</div>
+<div class="text-label-md font-label-md text-text-muted">On-Time Delivery Rate</div>
+</div>
+<div class="p-4">
+<div class="text-headline-xl font-headline-xl text-primary mb-2">30%</div>
+<div class="text-label-md font-label-md text-text-muted">Increase in Fleet Utilization</div>
+</div>
+<div class="p-4">
+<div class="text-headline-xl font-headline-xl text-primary mb-2">Real-time</div>
+<div class="text-label-md font-label-md text-text-muted">Asset Visibility</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-on-background w-full pt-16 pb-8 border-t border-outline">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-margin-desktop max-w-container-max mx-auto mb-12">
+<div class="col-span-1 md:col-span-1">
+<div class="text-headline-md font-headline-md text-surface-white mb-6">Data ERP Systems</div>
+</div>
+<div>
+<a class="block text-surface-variant hover:text-surface-white text-body-md font-body-md mb-3 cursor-pointer transition-all duration-200" href="#">Services</a>
+<a class="block text-surface-variant hover:text-surface-white text-body-md font-body-md mb-3 cursor-pointer transition-all duration-200" href="#">Industries</a>
+<a class="block text-surface-variant hover:text-surface-white text-body-md font-body-md mb-3 cursor-pointer transition-all duration-200" href="#">About Us</a>
+</div>
+<div>
+<a class="block text-surface-variant hover:text-surface-white text-body-md font-body-md mb-3 cursor-pointer transition-all duration-200" href="#">Contact Us</a>
+<a class="block text-surface-variant hover:text-surface-white text-body-md font-body-md mb-3 cursor-pointer transition-all duration-200" href="#">Careers</a>
+</div>
+<div>
+<a class="block text-surface-variant hover:text-surface-white text-body-md font-body-md mb-3 cursor-pointer transition-all duration-200" href="#">Privacy Policy</a>
+<a class="block text-surface-variant hover:text-surface-white text-body-md font-body-md mb-3 cursor-pointer transition-all duration-200" href="#">Terms of Service</a>
+<a class="block text-surface-variant hover:text-surface-white text-body-md font-body-md mb-3 cursor-pointer transition-all duration-200" href="#">Legal</a>
+<a class="block text-surface-variant hover:text-surface-white text-body-md font-body-md mb-3 cursor-pointer transition-all duration-200" href="#">Cookie Policy</a>
+</div>
+</div>
+<div class="px-margin-desktop max-w-container-max mx-auto text-surface-variant text-label-sm font-label-sm">
+            © 2024 Data ERP Systems. All rights reserved. Built for Organized Intelligence.
+        </div>
+</footer>
+</body></html>
